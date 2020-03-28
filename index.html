@@ -102,7 +102,9 @@
 		</div>
 
 		<div id="tooltip" class="hidden">
-            <p>County: <span id="county">County Name</span></p>
+			<p>County: <span id="county">County Name</span></p>
+			<p>ID: <span id="geoid">GEOID</span></p>
+
         </div>
 		<script type="text/javascript">
 
@@ -145,6 +147,8 @@
 								.style("top", yPosition + "px");
 							d3.select("#county")
 								.text(d.properties.NAME);
+							d3.select("#geoid")
+								.text(d.properties.GEOID);
 							d3.select("#tooltip")
 								.classed("hidden", false);
 						})

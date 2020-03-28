@@ -1,5 +1,8 @@
 # COVID19
 
+To run:
+python3 -m http.server
+
 COVID-19 Data by County:
 https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
 
