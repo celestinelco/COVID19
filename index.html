@@ -6,9 +6,10 @@
 		<link rel="shortcut icon" href="#" />
 		<link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"></link>
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
 
 		<script src="//d3js.org/d3.v3.min.js"></script>
- 		<script src="https://use.typekit.com/brf5jpj.js"></script>
 		<script src="//use.typekit.net/drk2sev.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
@@ -125,6 +126,30 @@
 						.attr("width", w)
 						.attr("height", h);
 
+			// Returns number of confirmed cases given geo id
+			function getNumberConfirmed(geoid) {
+				// TO-DO BACKEND: Search NYT (using GEOID) for most recent confirmed case number in this county
+
+
+				var data;
+				var status;
+
+				$.get("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv", function(data, status){
+			     alert("Data: " + data + "\nStatus: " + status);
+			   });
+
+				console.log(data);
+
+			  return "0";
+			};
+
+			// Returns number of staffed hospital beds given geo id
+			function getNumberBeds(geoid) {
+				// TO-DO BACKEND: Compile all cities into county and sum number of beds.
+
+			  return "0";
+			};
+
 			// Load in GeoJSON data
 			d3.json("cb_2014_us_county_5m.json", function(json) {
 				console.log(json);
@@ -146,9 +171,9 @@
 							d3.select("#geoid")
 								.text(d.properties.GEOID); // this is the geoid!
 							d3.select("#confirmed")
-								.text("0"); // TO-DO BACKEND: Search NYT (using GEOID) for most recent confirmed case number in this county
+								.text(getNumberConfirmed(d.properties.GEOID));
 							d3.select("#beds")
-								.text("0"); // TO-DO BACKEND: Compile all cities into county and sum number of beds.
+								.text(getNumberBeds(d.properties.GEOID));
 							d3.select("#tooltip")
 								.classed("hidden", false);
 						})
