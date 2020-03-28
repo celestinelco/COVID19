@@ -11,3 +11,6 @@ https://www.ahd.com/states/hospital_CA.html
 
 California Counties from Erik Jacobsen's Block ed0f322d7bb2e3be8ded
 http://bl.ocks.org/threestory/ed0f322d7bb2e3be8ded
+
+County JSON File Source
+https://gist.github.com/threestory/ed0f322d7bb2e3be8ded?short_path=27e563c
