@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Coronavirus Visualization</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+		<link rel="shortcut icon" href="#" />
+	</head>
+	<body>
+		<script type="module" src="main.js"></script>
+
+		<svg width="960" height="600" stroke-linejoin="round" stroke-linecap="round">
+		  <defs>
+		    <filter id="blur">
+		      <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+		    </filter>
+		  </defs>
+		</svg>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/topojson.v2.min.js"></script>
+	</body>
+</html>
