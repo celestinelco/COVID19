@@ -126,21 +126,44 @@
 						.attr("width", w)
 						.attr("height", h);
 
+
+
 			// Returns number of confirmed cases given geo id
 			function getNumberConfirmed(geoid) {
 				// TO-DO BACKEND: Search NYT (using GEOID) for most recent confirmed case number in this county
 
+				var latestNumber = 0;
 
-				var data;
-				var status;
+				$.ajax({
+				    url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
+				    async: false,
+				    success: function (csvd) {
 
-				$.get("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv", function(data, status){
-			     alert("Data: " + data + "\nStatus: " + status);
-			   });
+						 // reverse data so freshest data is first
+				        var items = $.csv.toObjects(csvd).reverse();
 
-				console.log(data);
+						  // filter so geoid matches and most recent first
+						  var filtered = items.filter(function (i,n){
+					        return i.fips == geoid;
+					    });
 
-			  return "0";
+						 var filtered_json = JSON.stringify(filtered);
+						 console.log("filtered: " + filtered_json);
+
+						 // check if in list
+						 if (filtered.length > 0)
+						 {
+							 // TO-DO: If time slider is implemented, look up date
+							 // 			if not, return data from newest date
+							 latestNumber = filtered[0].cases;
+							 console.log("latestNumber: " + latestNumber);
+						 }
+
+				    },
+				});
+
+
+			  return latestNumber;
 			};
 
 			// Returns number of staffed hospital beds given geo id
