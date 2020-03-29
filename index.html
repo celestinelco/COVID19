@@ -8,6 +8,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/bootstrap-slider.js"></script>
 
 		<script src="//d3js.org/d3.v3.min.js"></script>
 
@@ -82,40 +83,19 @@
 				line-height: 20px;
 			}
 
-			.slidecontainer {
-				width: 100%;
+			.slider .handle path {
+			  stroke: grey;
+			  stroke-width: 3px;
+			  stroke-linecap: round;
+			  pointer-events: none;
 			}
 
-			.slider {
-				-webkit-appearance: none;
-				width: 100%;
-				height: 25px;
-				background: #d3d3d3;
-				outline: none;
-				opacity: 0.7;
-				-webkit-transition: .2s;
-				transition: opacity .2s;
+			.slider .handle text {
+			  fill: grey;
+			  text-align: center;
+			  font-size: 18px;
 			}
 
-			.slider:hover {
-				opacity: 1;
-			}
-
-			.slider::-webkit-slider-thumb {
-				-webkit-appearance: none;
-				appearance: none;
-				width: 25px;
-				height: 25px;
-				background: #4CAF50;
-				cursor: pointer;
-			}
-
-			.slider::-moz-range-thumb {
-				width: 25px;
-				height: 25px;
-				background: #4CAF50;
-				cursor: pointer;
-			}
 		</style>
 	</head>
 	<body>
@@ -124,7 +104,7 @@
 			<h2 style="font-size: 1.5em; font-weight: 600;">COVID-19 Hospital Bed Capacity by California County </h2>
 			<p><a target="_blank" href="https://www.projectn95.org/vents">Every ventilator donated saves a life. Click to donate.</a></p>
 			<img src="/confirmed_level.PNG" alt="Confirmed number of cases" style="width: 350px; position: absolute; margin-left: 2%;">
-		</div>		
+		</div>
 
 
 		<div id="tooltip" class="hidden">
@@ -137,9 +117,6 @@
 		</div>
 
 		<div style="position: fixed; bottom: 0; padding: 0.25em 2vw 0.5em;">
-			<span style="padding-right: 1em;">March 26, 2020</span>
-			<input type="range" min="1" max="100" value="100">
-
 			<p style="margin-bottom: 0; background: #fff;">
 				Sources: <a href="https://gist.github.com/threestory/ed0f322d7bb2e3be8ded?short_path=27e563c" target="new">California Counties</a>,
 				<a href="https://www.ahd.com/states/hospital_CA.html" target="new">Individual Hospital Statistics for California</a>,
@@ -166,6 +143,19 @@
 			var maxColor = "#db1848";
 			var grey = "#C9C9C9";
 			var color;
+
+			var current_date;
+			formatDate = d3.time.format("%b %d");
+
+			// parameters
+			var margin = {
+			    top: 50,
+			    right: 50,
+			    bottom: 50,
+			    left: 50
+			  },
+			  s_width = 960 - margin.left - margin.right,
+			  s_height = 300 - margin.bottom - margin.top;
 
 			// Returns max value by property of json array
 			function getMax(arr, prop) {
@@ -206,6 +196,11 @@
 
 			// Load New York Times COVID-19 Data
 			var covid_counties;
+			var min_date;
+			var max_date;
+			var start_date;
+			var timeScale, brush, s_svg, slider, handle;
+			var plot;
 			$(document).ready(function() {
 			  $.ajax({
 					url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
@@ -232,22 +227,121 @@
 
 						color = d3.scale.linear().domain([minimum, pointTwo, pointThree, pointFour, max_confirmed]).range([minColor, colorTwo, colorThree, colorFour, maxColor]);
 
+						// get first and last date
+						max_date = new Date(covid_counties[0].date);
+						min_date = new Date(covid_counties[covid_counties.length-1].date);
+						start_date = new Date(covid_counties[0].date);
+
+						// time bounds
+						timeScale = d3.time.scale()
+						  .domain([min_date, max_date])
+						  .range([0, s_width])
+						  .clamp(true);
+
+						  // defines brush
+			  			brush = d3.svg.brush()
+			  			  .x(timeScale)
+			  			  .extent([start_date, start_date])
+			  			  .on("brush", brushed);
+
+						  s_svg = d3.select("body").append("svg")
+							 .attr("width", s_width + margin.left + margin.right)
+							 .attr("height", s_height + margin.top + margin.bottom)
+							 .append("g")
+							 // classic transform to position g
+							 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+						  s_svg.append("g")
+								 .attr("class", "x axis")
+							  // put in middle of screen
+							  .attr("transform", "translate(0," + s_height / 2 + ")")
+							  // inroduce axis
+							  .call(d3.svg.axis()
+								 .scale(timeScale)
+								 .orient("bottom")
+								 .tickFormat(function(d) {
+									return formatDate(d);
+								 })
+								 .tickSize(0)
+								 .tickPadding(12)
+								 .tickValues([timeScale.domain()[0], timeScale.domain()[1]]))
+								 .select(".domain")
+								 .select(function() {
+									console.log(this);
+									return this.parentNode.appendChild(this.cloneNode(true));
+								 })
+								 .attr("class", "halo");
+
+						   slider = s_svg.append("g")
+							 .attr("class", "slider")
+							 .call(brush);
+
+						  slider.selectAll(".extent,.resize")
+							 .remove();
+
+						  slider.select(".background")
+							 .attr("height", s_height);
+
+						  handle = slider.append("g")
+							 .attr("class", "handle")
+
+						  handle.append("path")
+							 .attr("transform", "translate(0," + s_height / 2 + ")")
+							 .attr("d", "M 0 -20 V 20")
+
+						  handle.append('text')
+							 .text(start_date)
+							 .attr("transform", "translate(" + (-18) + " ," + (s_height / 2 - 25) + ")");
+
+						  slider.call(brush.event);
+
+						  current_date = start_date;
+
+						  // Load in GeoJSON data
+						  d3.json("cb_2014_us_county_5m.json", function(json) {
+							  // console.log(json);
+
+							  // Bind data and create one path per GeoJSON feature
+							  plot = svg.selectAll("path")
+								  .data(json.features)
+								  .enter()
+								  .append("path")
+								  .attr("d", path)
+								  .style("fill", function(d) {
+									  return getColor(d.properties.GEOID, current_date);
+								  })
+								  .on("mouseover", function(d){
+									  var xPosition = 25;
+									  var yPosition = 60;
+									  d3.select("#tooltip")
+										  .style("left", xPosition + "%")
+										  .style("top", yPosition + "%");
+									  d3.select("#county")
+										  .text(d.properties.NAME);
+									  d3.select("#geoid")
+										  .text(d.properties.GEOID); // this is the geoid!
+									  getCovidData(d.properties.GEOID, current_date);
+									  d3.select("#beds")
+										  .text(getNumberBeds(d.properties.GEOID, current_date));
+									  d3.select("#tooltip")
+										  .classed("hidden", false);
+								  })
+								  .on("mouseout", function(){
+									  d3.select("#tooltip").classed("hidden", true);
+								  });
+
+						  });
 					},
 			  });
 		   });
 
-		   console.log("items");
-
 			// Displays number of confirmed cases and deaths given geo id
-			function getCovidData(geoid)
+			function getCovidData(geoid, current_date)
 			{
 				  // filter so geoid matches
 				  var filtered = covid_counties.filter(function (i,n){
-					  return i.fips == geoid;
+					  return i.fips == geoid && new Date(i.date).getMonth() == current_date.getMonth() && new Date(i.date).getDate() == current_date.getDate();
 				 });
-
-				 // var filtered_json = JSON.stringify(filtered);
-				 // console.log("filtered: " + filtered_json);
 
 				 // check if in list
 				 if (filtered.length > 0)
@@ -272,11 +366,11 @@
 				 }
 			}
 
-			function getColor(geoid)
+			function getColor(geoid, current_date)
 			{
 				// filter so geoid matches
 				var filtered = covid_counties.filter(function (i,n){
-					return i.fips == geoid;
+					return i.fips == geoid && new Date(i.date).getMonth() == current_date.getMonth() && new Date(i.date).getDate() == current_date.getDate();
 			  });
 
 			  // check if in list
@@ -289,7 +383,7 @@
 			}
 
 			// Returns number of staffed hospital beds given geo id
-			function getNumberBeds(geoid) {
+			function getNumberBeds(geoid, current_date) {
 				// TO-DO BACKEND: Compile all cities into county and sum number of beds.
 			  return "0";
 			};
@@ -304,40 +398,30 @@
 				return result;
 			};
 
-			// Load in GeoJSON data
-			d3.json("cb_2014_us_county_5m.json", function(json) {
-				// console.log(json);
+			function brushed() {
+			  current_date = brush.extent()[0];
 
-				// Bind data and create one path per GeoJSON feature
+			  if (d3.event.sourceEvent) { // not a programmatic event
+			    current_date = timeScale.invert(d3.mouse(this)[0]);
+			    brush.extent([current_date, current_date]);
+			  }
+
+			  handle.attr("transform", "translate(" + timeScale(current_date) + ",0)");
+			  handle.select('text').text(formatDate(current_date));
+
+			  updateColors();
+
+			}
+
+			function updateColors()
+			{
 				svg.selectAll("path")
-					.data(json.features)
-					.enter()
-					.append("path")
 					.attr("d", path)
 					.style("fill", function(d) {
-	 					return getColor(d.properties.GEOID);
-					})
-			   	.on("mouseover", function(d){
-						var xPosition = 25;
-						var yPosition = 60;
-						d3.select("#tooltip")
-							.style("left", xPosition + "%")
-							.style("top", yPosition + "%");
-						d3.select("#county")
-							.text(d.properties.NAME);
-						d3.select("#geoid")
-							.text(d.properties.GEOID); // this is the geoid!
-						getCovidData(d.properties.GEOID);
-						d3.select("#beds")
-							.text(getNumberBeds(d.properties.GEOID));
-						d3.select("#tooltip")
-							.classed("hidden", false);
-					})
-					.on("mouseout", function(){
-						d3.select("#tooltip").classed("hidden", true);
+						return getColor(d.properties.GEOID, current_date);
 					});
+			}
 
-			});
 		</script>
 	</body>
 </html>
