@@ -326,8 +326,9 @@
 									  d3.select("#geoid")
 										  .text(d.properties.GEOID); // this is the geoid!
 									  getCovidData(d.properties.GEOID, current_date);
-									  d3.select("#beds")
-										  .text(getNumberBeds(d.properties.NAME));
+									  getNumberBeds(d.properties.NAME);
+									  // d3.select("#beds")
+										//   .text(getNumberBeds(d.properties.NAME));
 									  d3.select("#tooltip")
 										  .classed("hidden", false);
 								  })
@@ -392,7 +393,18 @@
 
 				var result = hospital_json.filter(function (i, n) {
 					 return i.CTYNAME === county;
-				})[0].staffedBeds;
+				});
+
+				// check if in list
+				if (result.length > 0)
+				{
+					d3.select("#beds").text(result[0].staffedBeds);
+				}
+				else
+				{
+					d3.select("#beds").text("No data.");
+				}
+
 
 				return result;
 			};
