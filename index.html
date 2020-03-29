@@ -31,7 +31,8 @@
 			}
 
 			a {
-			  color: #00764C;
+				/* color: #00764C; */
+				color: #00764C;
 			  text-decoration: none;
 			  transition: color .3s, background .3s, border .3s;
 			}
@@ -108,6 +109,26 @@
 			var w = 760;
 			var h = 600;
 
+			// Minimum and maximum for color gradient
+			var minimum = 0;
+			var max_confirmed = 0;
+			var max_deaths = 0;
+
+			// color gradients
+			var minColor = "#02D89B";
+			var maxColor = "#006742";
+			var color;
+
+			// Returns max value by property of json array
+			function getMax(arr, prop) {
+			    var max;
+			    for (var i=0 ; i<arr.length ; i++) {
+			        if (max == null || parseInt(arr[i][prop]) > parseInt(max[prop]))
+			            max = arr[i];
+			    }
+			    return max;
+			}
+
 			// Define map projection
 			var projection = d3.geo.mercator()
 								   .center([ -120, 37 ])
@@ -125,14 +146,30 @@
 						.attr("height", h);
 
 			// Load New York Times COVID-19 Data
-			var items;
+			var covid_counties;
 			$(document).ready(function() {
 			  $.ajax({
 					url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
 					async: false,
 					success: function (csvd) {
 						// reverse data so freshest data is first
-						 items = $.csv.toObjects(csvd).reverse();
+						 var items = $.csv.toObjects(csvd).reverse();
+
+						 // filter california counties
+						 covid_counties = items.filter(function (i,n){
+							 return i.state == "California";
+						});
+
+						// get max confirmed cases
+						max_confirmed = getMax(covid_counties, "cases").cases;
+						console.log("max_confirmed: " + max_confirmed);
+
+						// get max num deaths
+						max_deaths = getMax(covid_counties, "deaths").deaths;
+						console.log("max_deaths: " + max_deaths);
+
+						color = d3.scale.linear().domain([minimum, max_confirmed]).range([minColor, maxColor]);
+
 					},
 			  });
 		   });
@@ -140,15 +177,13 @@
 			// Displays number of confirmed cases and deaths given geo id
 			function getCovidData(geoid)
 			{
-				// TO-DO BACKEND: Search NYT (using GEOID) for most recent confirmed case number in this county
-
-				  // filter so geoid matches and most recent first
-				  var filtered = items.filter(function (i,n){
+				  // filter so geoid matches
+				  var filtered = covid_counties.filter(function (i,n){
 					  return i.fips == geoid;
 				 });
 
-				 var filtered_json = JSON.stringify(filtered);
-				 console.log("filtered: " + filtered_json);
+				 // var filtered_json = JSON.stringify(filtered);
+				 // console.log("filtered: " + filtered_json);
 
 				 // check if in list
 				 if (filtered.length > 0)
@@ -163,6 +198,22 @@
 					 d3.select("#confirmed").text("No data.");
 					 d3.select('#deaths').text("No data.");
 				 }
+			}
+
+			function getColor(geoid)
+			{
+				// filter so geoid matches
+				var filtered = covid_counties.filter(function (i,n){
+					return i.fips == geoid;
+			  });
+
+			  // check if in list
+			  if (filtered.length > 0)
+			  {
+				  return color(parseInt(filtered[0].cases));
+			  }
+
+			  return "#C9C9C9";
 			}
 
 			// Returns number of staffed hospital beds given geo id
@@ -183,25 +234,28 @@
 					.enter()
 					.append("path")
 					.attr("d", path)
-				   	.on("mouseover", function(d){
-							var xPosition = w/2 + 150;
-							var yPosition = h/2 - 50;
-							d3.select("#tooltip")
-								.style("left", xPosition + "px")
-								.style("top", yPosition + "px");
-							d3.select("#county")
-								.text(d.properties.NAME);
-							d3.select("#geoid")
-								.text(d.properties.GEOID); // this is the geoid!
-							getCovidData(d.properties.GEOID);
-							d3.select("#beds")
-								.text(getNumberBeds(d.properties.GEOID));
-							d3.select("#tooltip")
-								.classed("hidden", false);
-						})
-						.on("mouseout", function(){
-							d3.select("#tooltip").classed("hidden", true);
-						});
+					.style("fill", function(d) {
+	 					return getColor(d.properties.GEOID);
+					})
+			   	.on("mouseover", function(d){
+						var xPosition = w/2 + 150;
+						var yPosition = h/2 - 50;
+						d3.select("#tooltip")
+							.style("left", xPosition + "px")
+							.style("top", yPosition + "px");
+						d3.select("#county")
+							.text(d.properties.NAME);
+						d3.select("#geoid")
+							.text(d.properties.GEOID); // this is the geoid!
+						getCovidData(d.properties.GEOID);
+						d3.select("#beds")
+							.text(getNumberBeds(d.properties.GEOID));
+						d3.select("#tooltip")
+							.classed("hidden", false);
+					})
+					.on("mouseout", function(){
+						d3.select("#tooltip").classed("hidden", true);
+					});
 
 			});
 
