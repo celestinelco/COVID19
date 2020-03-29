@@ -85,7 +85,7 @@
 
 			.slider .handle path {
 			  stroke: "#1abdbb";
-			  stroke-width: 3px;
+			  stroke-width: 10px;
 			  stroke-linecap: round;
 			  pointer-events: none;
 			}
@@ -267,7 +267,7 @@
 								 .tickFormat(function(d) {
 									return formatDate(d);
 								 })
-								 .tickSize(0)
+								 .tickSize(5)
 								 .tickPadding(12)
 								 .tickValues([timeScale.domain()[0], timeScale.domain()[1]]))
 								 .select(".domain")
