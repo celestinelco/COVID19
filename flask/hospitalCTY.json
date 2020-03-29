@@ -1,0 +1,1292 @@
+{
+    "data": [
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "144"
+      }, 
+      {
+        "CTYNAME": "Mendocino", 
+        "staffedBeds": "50"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "352"
+      }, 
+      {
+        "CTYNAME": "Marin", 
+        "staffedBeds": "235"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "266"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "252"
+      }, 
+      {
+        "CTYNAME": "Solano", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Snohomish", 
+        "staffedBeds": "209"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "254"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "451"
+      }, 
+      {
+        "CTYNAME": "Kings", 
+        "staffedBeds": "230"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "190"
+      }, 
+      {
+        "CTYNAME": "Dallas", 
+        "staffedBeds": "49"
+      }, 
+      {
+        "CTYNAME": "Tulare", 
+        "staffedBeds": "130"
+      }, 
+      {
+        "CTYNAME": "Solano", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "152"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "108"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "353"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "223"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "215"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "144"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "354"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Lancaster", 
+        "staffedBeds": "401"
+      }, 
+      {
+        "CTYNAME": "Contra Costa", 
+        "staffedBeds": "304"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "183"
+      }, 
+      {
+        "CTYNAME": "San Luis Obispo", 
+        "staffedBeds": "484"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "393"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "138"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "456"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "67"
+      }, 
+      {
+        "CTYNAME": "El Dorado", 
+        "staffedBeds": "47"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "421"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "257"
+      }, 
+      {
+        "CTYNAME": "San Luis Obispo", 
+        "staffedBeds": "30"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "111"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "224"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "318"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "99"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "880"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "345"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "434"
+      }, 
+      {
+        "CTYNAME": "Fairfield", 
+        "staffedBeds": "114"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "65"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "112"
+      }, 
+      {
+        "CTYNAME": "Colusa", 
+        "staffedBeds": "217"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "208"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "117"
+      }, 
+      {
+        "CTYNAME": "Monterey", 
+        "staffedBeds": "122"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "221"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "48"
+      }, 
+      {
+        "CTYNAME": "Merrimack", 
+        "staffedBeds": "81"
+      }, 
+      {
+        "CTYNAME": "Contra Costa", 
+        "staffedBeds": "347"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "286"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "201"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "887"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "244"
+      }, 
+      {
+        "CTYNAME": "San Joaquin", 
+        "staffedBeds": "147"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "238"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "223"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "120"
+      }, 
+      {
+        "CTYNAME": "San Joaquin", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Stanislaus", 
+        "staffedBeds": "170"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "107"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "369"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "148"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "73"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "447"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "222"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "127"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "130"
+      }, 
+      {
+        "CTYNAME": "Stanislaus", 
+        "staffedBeds": "368"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Butte", 
+        "staffedBeds": "443"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "161"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "105"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "516"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "325"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "209"
+      }, 
+      {
+        "CTYNAME": "San Luis Obispo", 
+        "staffedBeds": "148"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "338"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "30"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "626"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "177"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "400"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "98"
+      }, 
+      {
+        "CTYNAME": "Santa Barbara", 
+        "staffedBeds": "57"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "169"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "27"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "167"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "210"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "304"
+      }, 
+      {
+        "CTYNAME": "San Benito", 
+        "staffedBeds": "128"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "28"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "342"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "310"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "64"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "117"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "428"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "168"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "417"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "238"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "175"
+      }, 
+      {
+        "CTYNAME": "Placer", 
+        "staffedBeds": "372"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "518"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "70"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "131"
+      }, 
+      {
+        "CTYNAME": "Tulare", 
+        "staffedBeds": "568"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "130"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "340"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Jefferson", 
+        "staffedBeds": "239"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "120"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "536"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "581"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "330"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "222"
+      }, 
+      {
+        "CTYNAME": "Santa Barbara", 
+        "staffedBeds": "234"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "140"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "780"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "172"
+      }, 
+      {
+        "CTYNAME": "Fairfield", 
+        "staffedBeds": "343"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "524"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "112"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Humboldt", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Madera", 
+        "staffedBeds": "170"
+      }, 
+      {
+        "CTYNAME": "San Joaquin", 
+        "staffedBeds": "453"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "146"
+      }, 
+      {
+        "CTYNAME": "El Dorado", 
+        "staffedBeds": "324"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Monterey", 
+        "staffedBeds": "670"
+      }, 
+      {
+        "CTYNAME": "Merced", 
+        "staffedBeds": "528"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "327"
+      }, 
+      {
+        "CTYNAME": "Stanislaus", 
+        "staffedBeds": "49"
+      }, 
+      {
+        "CTYNAME": "Menifee", 
+        "staffedBeds": "106"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "251"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "388"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "103"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "124"
+      }, 
+      {
+        "CTYNAME": "Kern", 
+        "staffedBeds": "131"
+      }, 
+      {
+        "CTYNAME": "Merced", 
+        "staffedBeds": "95"
+      }, 
+      {
+        "CTYNAME": "Shasta", 
+        "staffedBeds": "40"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "172"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "419"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "84"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "16"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "419"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "226"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "106"
+      }, 
+      {
+        "CTYNAME": "Stanislaus", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Essex", 
+        "staffedBeds": "186"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "262"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "370"
+      }, 
+      {
+        "CTYNAME": "Monterey", 
+        "staffedBeds": "348"
+      }, 
+      {
+        "CTYNAME": "Kings", 
+        "staffedBeds": "329"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "301"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "145"
+      }, 
+      {
+        "CTYNAME": "Fairfield", 
+        "staffedBeds": "189"
+      }, 
+      {
+        "CTYNAME": "Solano", 
+        "staffedBeds": "523"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Marin", 
+        "staffedBeds": "106"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "101"
+      }, 
+      {
+        "CTYNAME": "Washington", 
+        "staffedBeds": "94"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "172"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "182"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "50"
+      }, 
+      {
+        "CTYNAME": "Butte", 
+        "staffedBeds": "394"
+      }, 
+      {
+        "CTYNAME": "Lamar", 
+        "staffedBeds": "47"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "348"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "150"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "365"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "304"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "204"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "218"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "228"
+      }, 
+      {
+        "CTYNAME": "Shasta", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Sonoma", 
+        "staffedBeds": "133"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "231"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "184"
+      }, 
+      {
+        "CTYNAME": "Imperial", 
+        "staffedBeds": "51"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Tulare", 
+        "staffedBeds": "329"
+      }, 
+      {
+        "CTYNAME": "Johnson", 
+        "staffedBeds": "236"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "218"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "291"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "191"
+      }, 
+      {
+        "CTYNAME": "Napa", 
+        "staffedBeds": "10"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "80"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "199"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "384"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "107"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "114"
+      }, 
+      {
+        "CTYNAME": "Richmond City", 
+        "staffedBeds": "412"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "44"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "377"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "356"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "442"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "392"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "246"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "166"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "210"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "240"
+      }, 
+      {
+        "CTYNAME": "Tehama", 
+        "staffedBeds": "229"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "149"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "258"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "478"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "226"
+      }, 
+      {
+        "CTYNAME": "Humboldt", 
+        "staffedBeds": "439"
+      }, 
+      {
+        "CTYNAME": "Humboldt", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "San Joaquin", 
+        "staffedBeds": "445"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "287"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "248"
+      }, 
+      {
+        "CTYNAME": "Dakota", 
+        "staffedBeds": "385"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "328"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "49"
+      }, 
+      {
+        "CTYNAME": "Monterey", 
+        "staffedBeds": "374"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "211"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "155"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "265"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "446"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "San Joaquin", 
+        "staffedBeds": "149"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "348"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "320"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "72"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "212"
+      }, 
+      {
+        "CTYNAME": "Marin", 
+        "staffedBeds": "159"
+      }, 
+      {
+        "CTYNAME": "Santa Barbara", 
+        "staffedBeds": "195"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "240"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "363"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "95"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "273"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "61"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "196"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "235"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "45"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "206"
+      }, 
+      {
+        "CTYNAME": "San Mateo", 
+        "staffedBeds": "508"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "116"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "123"
+      }, 
+      {
+        "CTYNAME": "Maricopa", 
+        "staffedBeds": "363"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "327"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "974"
+      }, 
+      {
+        "CTYNAME": "Shasta", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "173"
+      }, 
+      {
+        "CTYNAME": "Nevada", 
+        "staffedBeds": "298"
+      }, 
+      {
+        "CTYNAME": "Tulare", 
+        "staffedBeds": "150"
+      }, 
+      {
+        "CTYNAME": "San Luis Obispo", 
+        "staffedBeds": "193"
+      }, 
+      {
+        "CTYNAME": "Scott", 
+        "staffedBeds": "365"
+      }, 
+      {
+        "CTYNAME": "Sonoma", 
+        "staffedBeds": "173"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "523"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "208"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "434"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "343"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "181"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "524"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "862"
+      }, 
+      {
+        "CTYNAME": "Stanislaus", 
+        "staffedBeds": "226"
+      }, 
+      {
+        "CTYNAME": "Hinds", 
+        "staffedBeds": "153"
+      }, 
+      {
+        "CTYNAME": "Lee", 
+        "staffedBeds": "104"
+      }, 
+      {
+        "CTYNAME": "Del Norte", 
+        "staffedBeds": "163"
+      }, 
+      {
+        "CTYNAME": "Davis", 
+        "staffedBeds": "162"
+      }, 
+      {
+        "CTYNAME": "Contra Costa", 
+        "staffedBeds": "13"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "37"
+      }, 
+      {
+        "CTYNAME": "Placer", 
+        "staffedBeds": "75"
+      }, 
+      {
+        "CTYNAME": "Solano", 
+        "staffedBeds": "257"
+      }, 
+      {
+        "CTYNAME": "Sutter", 
+        "staffedBeds": "178"
+      }, 
+      {
+        "CTYNAME": "San Joaquin", 
+        "staffedBeds": "209"
+      }, 
+      {
+        "CTYNAME": "Riverside", 
+        "staffedBeds": "406"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "612"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "284"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Carroll", 
+        "staffedBeds": "207"
+      }, 
+      {
+        "CTYNAME": "Sacramento", 
+        "staffedBeds": "477"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "23"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "52"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "64"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "49"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "48"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "145"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "30"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "523"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "328"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "84"
+      }, 
+      {
+        "CTYNAME": "Fresno", 
+        "staffedBeds": "106"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "14"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "77"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "140"
+      }, 
+      {
+        "CTYNAME": "Greene", 
+        "staffedBeds": "21"
+      }, 
+      {
+        "CTYNAME": "Santa Clara", 
+        "staffedBeds": "512"
+      }, 
+      {
+        "CTYNAME": "San Diego", 
+        "staffedBeds": "305"
+      }, 
+      {
+        "CTYNAME": "Solano", 
+        "staffedBeds": "122"
+      }, 
+      {
+        "CTYNAME": "Solano", 
+        "staffedBeds": "617"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Ventura", 
+        "staffedBeds": "701"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "414"
+      }, 
+      {
+        "CTYNAME": "Contra Costa", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Contra Costa", 
+        "staffedBeds": "281"
+      }, 
+      {
+        "CTYNAME": "Alameda", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Santa Cruz", 
+        "staffedBeds": "785"
+      }, 
+      {
+        "CTYNAME": "San Bernardino", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Orange", 
+        "staffedBeds": "60"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "165"
+      }, 
+      {
+        "CTYNAME": "Suffolk", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Los Angeles", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "Yolo", 
+        "staffedBeds": "0"
+      }, 
+      {
+        "CTYNAME": "San Francisco", 
+        "staffedBeds": "0"
+      }
+    ]
+  }

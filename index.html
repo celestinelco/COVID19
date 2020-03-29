@@ -199,6 +199,11 @@
 				pop_json = json.data;
 			});
 
+			var hospital_json;
+			d3.json("flask/hospitalCTY.json", function(json) {
+				hospital_json = json.data;
+			});
+
 			// Display numbers with commas
 			function numberWithCommas(x) {
 			    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -289,9 +294,13 @@
 			}
 
 			// Returns number of staffed hospital beds given geo id
-			function getNumberBeds(geoid) {
-				// TO-DO BACKEND: Compile all cities into county and sum number of beds.
-			  return "0";
+			function getNumberBeds(county) {
+
+				var result = hospital_json.filter(function (i, n) {
+					 return i.CTYNAME === county;
+				})[0].staffedBeds;
+
+				return result;
 			};
 
 			// Returns population given county name
@@ -329,7 +338,7 @@
 							.text(d.properties.GEOID); // this is the geoid!
 						getCovidData(d.properties.GEOID);
 						d3.select("#beds")
-							.text(getNumberBeds(d.properties.GEOID));
+							.text(getNumberBeds(d.properties.NAME));
 						d3.select("#tooltip")
 							.classed("hidden", false);
 					})

@@ -1,0 +1,2902 @@
+{
+    "hospitals": [
+      {
+        "city": "Simi Valley", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$666,423", 
+        "name": "Adventist Health Simi Valley", 
+        "patientDays": "26,847", 
+        "staffedBeds": "144", 
+        "totalDischarges": "6,574"
+      }, 
+      {
+        "city": "Ukiah", 
+        "county": "Mendocino", 
+        "grossPatientRevenue": "$529,977", 
+        "name": "Adventist Ukiah Valley", 
+        "patientDays": "12,747", 
+        "staffedBeds": "50", 
+        "totalDischarges": "3,451"
+      }, 
+      {
+        "city": "Downey", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,411,332", 
+        "name": "Downey Medical Center", 
+        "patientDays": "70,158", 
+        "staffedBeds": "352", 
+        "totalDischarges": "15,856"
+      }, 
+      {
+        "city": "Greenbrae", 
+        "county": "Marin", 
+        "grossPatientRevenue": "$2,216,874", 
+        "name": "MarinHealth Medical Center", 
+        "patientDays": "39,395", 
+        "staffedBeds": "235", 
+        "totalDischarges": "9,248"
+      }, 
+      {
+        "city": "Santa Monica", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,259,366", 
+        "name": "Providence Saint John's Health Center", 
+        "patientDays": "57,959", 
+        "staffedBeds": "266", 
+        "totalDischarges": "12,400"
+      }, 
+      {
+        "city": "Woodland Hills", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,304,544", 
+        "name": "Woodland Hills Medical Center", 
+        "patientDays": "33,082", 
+        "staffedBeds": "252", 
+        "totalDischarges": "8,564"
+      }, 
+      {
+        "city": "Travis Air Force Base", 
+        "county": "Solano", 
+        "grossPatientRevenue": "$0", 
+        "name": "60th Medical Group - David Grant USAF Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Marysville", 
+        "county": "Snohomish", 
+        "grossPatientRevenue": "$1,452,858", 
+        "name": "Adventist Health and Rideout", 
+        "patientDays": "56,930", 
+        "staffedBeds": "209", 
+        "totalDischarges": "11,677"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$2,036,693", 
+        "name": "Adventist Health Bakersfield", 
+        "patientDays": "67,655", 
+        "staffedBeds": "254", 
+        "totalDischarges": "17,389"
+      }, 
+      {
+        "city": "Glendale", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,544,517", 
+        "name": "Adventist Health Glendale", 
+        "patientDays": "78,905", 
+        "staffedBeds": "451", 
+        "totalDischarges": "17,633"
+      }, 
+      {
+        "city": "Hanford", 
+        "county": "Kings", 
+        "grossPatientRevenue": "$1,143,207", 
+        "name": "Adventist Health Hanford", 
+        "patientDays": "47,221", 
+        "staffedBeds": "230", 
+        "totalDischarges": "9,455"
+      }, 
+      {
+        "city": "Lodi", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$1,456,557", 
+        "name": "Adventist Health Lodi Memorial", 
+        "patientDays": "34,259", 
+        "staffedBeds": "190", 
+        "totalDischarges": "8,990"
+      }, 
+      {
+        "city": "Reedley", 
+        "county": "Dallas", 
+        "grossPatientRevenue": "$301,523", 
+        "name": "Adventist Health Reedley", 
+        "patientDays": "6,199", 
+        "staffedBeds": "49", 
+        "totalDischarges": "1,838"
+      }, 
+      {
+        "city": "Saint Helena", 
+        "county": "Tulare", 
+        "grossPatientRevenue": "$1,127,609", 
+        "name": "Adventist Health Saint Helena", 
+        "patientDays": "22,828", 
+        "staffedBeds": "130", 
+        "totalDischarges": "3,690"
+      }, 
+      {
+        "city": "Selma", 
+        "county": "Solano", 
+        "grossPatientRevenue": "$0", 
+        "name": "Adventist Health Selma", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Sonora", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$996,958", 
+        "name": "Adventist Health Sonora", 
+        "patientDays": "14,686", 
+        "staffedBeds": "152", 
+        "totalDischarges": "4,158"
+      }, 
+      {
+        "city": "Tulare", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$105,590", 
+        "name": "Adventist Health Tulare", 
+        "patientDays": "3,359", 
+        "staffedBeds": "108", 
+        "totalDischarges": "688"
+      }, 
+      {
+        "city": "Vallejo", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$0", 
+        "name": "Adventist Health Vallejo", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$2,393,499", 
+        "name": "Adventist Health White Memorial", 
+        "patientDays": "82,082", 
+        "staffedBeds": "353", 
+        "totalDischarges": "18,937"
+      }, 
+      {
+        "city": "Anaheim", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$1,412,018", 
+        "name": "AHMC Anaheim Regional Medical Center", 
+        "patientDays": "46,132", 
+        "staffedBeds": "223", 
+        "totalDischarges": "10,240"
+      }, 
+      {
+        "city": "Alameda", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$402,813", 
+        "name": "Alameda Hospital", 
+        "patientDays": "12,134", 
+        "staffedBeds": "215", 
+        "totalDischarges": "2,408"
+      }, 
+      {
+        "city": "Alhambra", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$553,245", 
+        "name": "Alhambra Hospital Medical Center", 
+        "patientDays": "20,061", 
+        "staffedBeds": "144", 
+        "totalDischarges": "4,792"
+      }, 
+      {
+        "city": "Oakland", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$1,693,389", 
+        "name": "Alta Bates Summit Medical Center", 
+        "patientDays": "52,305", 
+        "staffedBeds": "354", 
+        "totalDischarges": "11,595"
+      }, 
+      {
+        "city": "Berkeley", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$0", 
+        "name": "Alta Bates Summit Medical Center Herrick Campus", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Berkeley", 
+        "county": "Lancaster", 
+        "grossPatientRevenue": "$1,818,558", 
+        "name": "Alta Bates Summit Medical Center Alta Bates Campus", 
+        "patientDays": "65,087", 
+        "staffedBeds": "401", 
+        "totalDischarges": "9,352"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "Contra Costa", 
+        "grossPatientRevenue": "$532,834", 
+        "name": "Alvarado Hospital Medical Center", 
+        "patientDays": "23,507", 
+        "staffedBeds": "304", 
+        "totalDischarges": "4,832"
+      }, 
+      {
+        "city": "Anaheim", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$295,471", 
+        "name": "Anaheim Global Medical Center", 
+        "patientDays": "19,959", 
+        "staffedBeds": "183", 
+        "totalDischarges": "2,682"
+      }, 
+      {
+        "city": "Anaheim", 
+        "county": "San Luis Obispo", 
+        "grossPatientRevenue": "$2,777,703", 
+        "name": "Anaheim Medical Center", 
+        "patientDays": "98,691", 
+        "staffedBeds": "484", 
+        "totalDischarges": "24,383"
+      }, 
+      {
+        "city": "Lancaster", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$1,823,103", 
+        "name": "Antelope Valley Hospital", 
+        "patientDays": "86,522", 
+        "staffedBeds": "393", 
+        "totalDischarges": "19,155"
+      }, 
+      {
+        "city": "Antioch", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$939,186", 
+        "name": "Antioch Medical Center", 
+        "patientDays": "25,035", 
+        "staffedBeds": "138", 
+        "totalDischarges": "7,326"
+      }, 
+      {
+        "city": "Colton", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,642,821", 
+        "name": "Arrowhead Regional Medical Center", 
+        "patientDays": "99,359", 
+        "staffedBeds": "456", 
+        "totalDischarges": "19,145"
+      }, 
+      {
+        "city": "Arroyo Grande", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$542,368", 
+        "name": "Arroyo Grande Community Hospital", 
+        "patientDays": "14,331", 
+        "staffedBeds": "67", 
+        "totalDischarges": "4,298"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "El Dorado", 
+        "grossPatientRevenue": "$443,526", 
+        "name": "Bakersfield Heart Hospital", 
+        "patientDays": "12,512", 
+        "staffedBeds": "47", 
+        "totalDischarges": "3,098"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,051,484", 
+        "name": "Bakersfield Memorial Hospital", 
+        "patientDays": "71,705", 
+        "staffedBeds": "421", 
+        "totalDischarges": "17,245"
+      }, 
+      {
+        "city": "Baldwin Park", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,847,528", 
+        "name": "Baldwin Park Medical Center", 
+        "patientDays": "41,403", 
+        "staffedBeds": "257", 
+        "totalDischarges": "11,026"
+      }, 
+      {
+        "city": "Barstow", 
+        "county": "San Luis Obispo", 
+        "grossPatientRevenue": "$469,359", 
+        "name": "Barstow Community Hospital", 
+        "patientDays": "6,860", 
+        "staffedBeds": "30", 
+        "totalDischarges": "2,099"
+      }, 
+      {
+        "city": "South Lake Tahoe", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$452,204", 
+        "name": "Barton Memorial Hospital", 
+        "patientDays": "7,196", 
+        "staffedBeds": "111", 
+        "totalDischarges": "2,322"
+      }, 
+      {
+        "city": "Montebello", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$430,834", 
+        "name": "Beverly Hospital", 
+        "patientDays": "39,617", 
+        "staffedBeds": "224", 
+        "totalDischarges": "10,290"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,477,782", 
+        "name": "California Hospital Medical Center", 
+        "patientDays": "77,124", 
+        "staffedBeds": "318", 
+        "totalDischarges": "18,047"
+      }, 
+      {
+        "city": "San Luis Obispo", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "California Mens Colony Hospital", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Pomona", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$219,339", 
+        "name": "Casa Colina Hospital and Centers for Healthcare", 
+        "patientDays": "4,371", 
+        "staffedBeds": "99", 
+        "totalDischarges": "1,195"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$16,647,906", 
+        "name": "Cedars-Sinai Medical Center", 
+        "patientDays": "272,413", 
+        "staffedBeds": "880", 
+        "totalDischarges": "56,087"
+      }, 
+      {
+        "city": "Inglewood", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$1,184,803", 
+        "name": "Centinela Hospital Medical Center", 
+        "patientDays": "62,436", 
+        "staffedBeds": "345", 
+        "totalDischarges": "15,776"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$933,245", 
+        "name": "CHA Hollywood Presbyterian Medical Center", 
+        "patientDays": "57,819", 
+        "staffedBeds": "434", 
+        "totalDischarges": "12,157"
+      }, 
+      {
+        "city": "Orange", 
+        "county": "Fairfield", 
+        "grossPatientRevenue": "$203,683", 
+        "name": "Chapman Global Medical Center", 
+        "patientDays": "5,705", 
+        "staffedBeds": "114", 
+        "totalDischarges": "1,951"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$174,600", 
+        "name": "Chinese Hospital", 
+        "patientDays": "5,357", 
+        "staffedBeds": "65", 
+        "totalDischarges": "1,188"
+      }, 
+      {
+        "city": "Chino", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$367,010", 
+        "name": "Chino Valley Medical Center", 
+        "patientDays": "15,076", 
+        "staffedBeds": "112", 
+        "totalDischarges": "5,235"
+      }, 
+      {
+        "city": "Duarte", 
+        "county": "Colusa", 
+        "grossPatientRevenue": "$3,850,813", 
+        "name": "City of Hope Comprehensive Cancer Center", 
+        "patientDays": "73,030", 
+        "staffedBeds": "217", 
+        "totalDischarges": "6,595"
+      }, 
+      {
+        "city": "Clovis", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,521,612", 
+        "name": "Clovis Community Medical Center", 
+        "patientDays": "70,096", 
+        "staffedBeds": "208", 
+        "totalDischarges": "15,196"
+      }, 
+      {
+        "city": "Norwalk", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$241,144", 
+        "name": "Coast Plaza Hospital", 
+        "patientDays": "10,857", 
+        "staffedBeds": "117", 
+        "totalDischarges": "2,401"
+      }, 
+      {
+        "city": "Costa Mesa", 
+        "county": "Monterey", 
+        "grossPatientRevenue": "$103,658", 
+        "name": "College Hospital Costa Mesa", 
+        "patientDays": "40,694", 
+        "staffedBeds": "122", 
+        "totalDischarges": "4,001"
+      }, 
+      {
+        "city": "Long Beach", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$278,370", 
+        "name": "College Medical Center", 
+        "patientDays": "63,677", 
+        "staffedBeds": "221", 
+        "totalDischarges": "8,949"
+      }, 
+      {
+        "city": "Colusa", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$44,455", 
+        "name": "Colusa Medical Center", 
+        "patientDays": "3,349", 
+        "staffedBeds": "48", 
+        "totalDischarges": "930"
+      }, 
+      {
+        "city": "Huntington Park", 
+        "county": "Merrimack", 
+        "grossPatientRevenue": "$380,344", 
+        "name": "Community Hospital of Huntington Park", 
+        "patientDays": "13,865", 
+        "staffedBeds": "81", 
+        "totalDischarges": "3,385"
+      }, 
+      {
+        "city": "San Bernardino", 
+        "county": "Contra Costa", 
+        "grossPatientRevenue": "$1,158,147", 
+        "name": "Community Hospital of San Bernardino", 
+        "patientDays": "32,372", 
+        "staffedBeds": "347", 
+        "totalDischarges": "7,284"
+      }, 
+      {
+        "city": "Monterey", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$1,843,628", 
+        "name": "Community Hospital of the Monterey Peninsula", 
+        "patientDays": "53,689", 
+        "staffedBeds": "286", 
+        "totalDischarges": "10,600"
+      }, 
+      {
+        "city": "Ventura", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$1,421,945", 
+        "name": "Community Memorial Hospital", 
+        "patientDays": "50,701", 
+        "staffedBeds": "201", 
+        "totalDischarges": "11,698"
+      }, 
+      {
+        "city": "Fresno", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$4,808,260", 
+        "name": "Community Regional Medical Center", 
+        "patientDays": "227,803", 
+        "staffedBeds": "887", 
+        "totalDischarges": "38,619"
+      }, 
+      {
+        "city": "Concord", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$3,091,763", 
+        "name": "Concord Medical Center", 
+        "patientDays": "53,393", 
+        "staffedBeds": "244", 
+        "totalDischarges": "11,397"
+      }, 
+      {
+        "city": "Martinez", 
+        "county": "San Joaquin", 
+        "grossPatientRevenue": "$815,755", 
+        "name": "Contra Costa Regional Medical Center", 
+        "patientDays": "42,614", 
+        "staffedBeds": "147", 
+        "totalDischarges": "6,412"
+      }, 
+      {
+        "city": "Corona", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$979,800", 
+        "name": "Corona Regional Medical Center", 
+        "patientDays": "30,686", 
+        "staffedBeds": "238", 
+        "totalDischarges": "7,314"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$686,866", 
+        "name": "CPMC Davies Campus", 
+        "patientDays": "15,735", 
+        "staffedBeds": "223", 
+        "totalDischarges": "3,123"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$414,786", 
+        "name": "CPMC Mission Bernal Campus", 
+        "patientDays": "16,566", 
+        "staffedBeds": "120", 
+        "totalDischarges": "3,348"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "San Joaquin", 
+        "grossPatientRevenue": "$0", 
+        "name": "CPMC Van Ness Campus", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Stockton", 
+        "county": "Stanislaus", 
+        "grossPatientRevenue": "$969,432", 
+        "name": "Dameron Hospital", 
+        "patientDays": "13,298", 
+        "staffedBeds": "170", 
+        "totalDischarges": "3,523"
+      }, 
+      {
+        "city": "Delano", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$194,164", 
+        "name": "Delano Regional Medical Center", 
+        "patientDays": "8,658", 
+        "staffedBeds": "107", 
+        "totalDischarges": "2,370"
+      }, 
+      {
+        "city": "Palm Springs", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$4,051,609", 
+        "name": "Desert Regional Medical Center", 
+        "patientDays": "88,402", 
+        "staffedBeds": "369", 
+        "totalDischarges": "19,134"
+      }, 
+      {
+        "city": "Victorville", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$888,531", 
+        "name": "Desert Valley Hospital", 
+        "patientDays": "38,260", 
+        "staffedBeds": "148", 
+        "totalDischarges": "9,285"
+      }, 
+      {
+        "city": "Manteca", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$1,109,544", 
+        "name": "Doctors Hospital of Manteca", 
+        "patientDays": "15,639", 
+        "staffedBeds": "73", 
+        "totalDischarges": "3,789"
+      }, 
+      {
+        "city": "Modesto", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$6,160,383", 
+        "name": "Doctors Medical Center of Modesto", 
+        "patientDays": "115,622", 
+        "staffedBeds": "447", 
+        "totalDischarges": "22,967"
+      }, 
+      {
+        "city": "Santa Cruz", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,966,666", 
+        "name": "Dominican Hospital", 
+        "patientDays": "47,680", 
+        "staffedBeds": "222", 
+        "totalDischarges": "10,129"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$326,751", 
+        "name": "East Los Angeles Doctors Hospital", 
+        "patientDays": "13,617", 
+        "staffedBeds": "127", 
+        "totalDischarges": "2,865"
+      }, 
+      {
+        "city": "Castro Valley", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,214,602", 
+        "name": "Eden Medical Center", 
+        "patientDays": "40,214", 
+        "staffedBeds": "130", 
+        "totalDischarges": "8,424"
+      }, 
+      {
+        "city": "Rancho Mirage", 
+        "county": "Stanislaus", 
+        "grossPatientRevenue": "$3,889,867", 
+        "name": "Eisenhower Medical Center", 
+        "patientDays": "68,795", 
+        "staffedBeds": "368", 
+        "totalDischarges": "19,581"
+      }, 
+      {
+        "city": "Los Gatos", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "El Camino Hospital Los Gatos Campus", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Mountain View", 
+        "county": "Butte", 
+        "grossPatientRevenue": "$3,297,556", 
+        "name": "El Camino Hospital Mountain View Campus", 
+        "patientDays": "82,128", 
+        "staffedBeds": "443", 
+        "totalDischarges": "22,741"
+      }, 
+      {
+        "city": "El Centro", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$779,464", 
+        "name": "El Centro Regional Medical Center", 
+        "patientDays": "24,960", 
+        "staffedBeds": "161", 
+        "totalDischarges": "5,477"
+      }, 
+      {
+        "city": "Glendora", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$366,130", 
+        "name": "Emanate Health Foothill Presbyterian Hospital", 
+        "patientDays": "24,141", 
+        "staffedBeds": "105", 
+        "totalDischarges": "5,685"
+      }, 
+      {
+        "city": "Covina", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$1,330,022", 
+        "name": "Emanate Health Inter-Community Hospital", 
+        "patientDays": "101,478", 
+        "staffedBeds": "516", 
+        "totalDischarges": "23,279"
+      }, 
+      {
+        "city": "West Covina", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$661,125", 
+        "name": "Emanate Health Queen of the Valley Hospital", 
+        "patientDays": "93,266", 
+        "staffedBeds": "325", 
+        "totalDischarges": "17,166"
+      }, 
+      {
+        "city": "Turlock", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$2,162,361", 
+        "name": "Emanuel Medical Center", 
+        "patientDays": "35,880", 
+        "staffedBeds": "209", 
+        "totalDischarges": "9,059"
+      }, 
+      {
+        "city": "Encino", 
+        "county": "San Luis Obispo", 
+        "grossPatientRevenue": "$270,830", 
+        "name": "Encino Hospital Medical Center", 
+        "patientDays": "12,251", 
+        "staffedBeds": "148", 
+        "totalDischarges": "3,066"
+      }, 
+      {
+        "city": "Chico", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$3,128,210", 
+        "name": "Enloe Medical Center", 
+        "patientDays": "82,842", 
+        "staffedBeds": "338", 
+        "totalDischarges": "19,702"
+      }, 
+      {
+        "city": "San Leandro", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$0", 
+        "name": "Fairmont Rehabilitation and Wellness", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Costa Mesa", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$114,208", 
+        "name": "Fairview Developmental Center", 
+        "patientDays": "359", 
+        "staffedBeds": "30", 
+        "totalDischarges": "41"
+      }, 
+      {
+        "city": "Fontana", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$4,404,480", 
+        "name": "Fontana Medical Center", 
+        "patientDays": "141,541", 
+        "staffedBeds": "626", 
+        "totalDischarges": "32,864"
+      }, 
+      {
+        "city": "Tustin", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$350,895", 
+        "name": "Foothill Regional Medical Center", 
+        "patientDays": "10,338", 
+        "staffedBeds": "177", 
+        "totalDischarges": "2,601"
+      }, 
+      {
+        "city": "Fountain Valley", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,671,042", 
+        "name": "Fountain Valley Regional Hospital and Medical Center", 
+        "patientDays": "90,669", 
+        "staffedBeds": "400", 
+        "totalDischarges": "19,041"
+      }, 
+      {
+        "city": "San Luis Obispo", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$742,733", 
+        "name": "French Hospital Medical Center", 
+        "patientDays": "18,833", 
+        "staffedBeds": "98", 
+        "totalDischarges": "4,712"
+      }, 
+      {
+        "city": "Fresno", 
+        "county": "Santa Barbara", 
+        "grossPatientRevenue": "$331,411", 
+        "name": "Fresno Heart & Surgical Hospital", 
+        "patientDays": "11,353", 
+        "staffedBeds": "57", 
+        "totalDischarges": "3,127"
+      }, 
+      {
+        "city": "Fresno", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$735,472", 
+        "name": "Fresno Medical Center", 
+        "patientDays": "31,848", 
+        "staffedBeds": "169", 
+        "totalDischarges": "8,227"
+      }, 
+      {
+        "city": "Fresno", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$302,064", 
+        "name": "Fresno Surgical Hospital", 
+        "patientDays": "2,234", 
+        "staffedBeds": "27", 
+        "totalDischarges": "1,790"
+      }, 
+      {
+        "city": "Garden Grove", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$343,018", 
+        "name": "Garden Grove Hospital and Medical Center", 
+        "patientDays": "19,814", 
+        "staffedBeds": "167", 
+        "totalDischarges": "5,058"
+      }, 
+      {
+        "city": "Monterey Park", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,627,916", 
+        "name": "Garfield Medical Center", 
+        "patientDays": "52,451", 
+        "staffedBeds": "210", 
+        "totalDischarges": "9,833"
+      }, 
+      {
+        "city": "Glendale", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$985,441", 
+        "name": "Glendale Memorial Hospital & Health Center", 
+        "patientDays": "42,116", 
+        "staffedBeds": "304", 
+        "totalDischarges": "9,565"
+      }, 
+      {
+        "city": "Glendora", 
+        "county": "San Benito", 
+        "grossPatientRevenue": "$99,945", 
+        "name": "Glendora Oaks Behavioral Health Hospital", 
+        "patientDays": "10,081", 
+        "staffedBeds": "128", 
+        "totalDischarges": "1,817"
+      }, 
+      {
+        "city": "Santa Barbara", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$246,779", 
+        "name": "Goleta Valley Cottage Hospital", 
+        "patientDays": "3,629", 
+        "staffedBeds": "28", 
+        "totalDischarges": "1,687"
+      }, 
+      {
+        "city": "San Jose", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$4,641,559", 
+        "name": "Good Samaritan Hospital", 
+        "patientDays": "81,332", 
+        "staffedBeds": "342", 
+        "totalDischarges": "16,472"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$1,666,481", 
+        "name": "Good Samaritan Hospital", 
+        "patientDays": "68,981", 
+        "staffedBeds": "310", 
+        "totalDischarges": "11,766"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$43,101", 
+        "name": "Good Samaritan Hospital North", 
+        "patientDays": "4,611", 
+        "staffedBeds": "64", 
+        "totalDischarges": "1,120"
+      }, 
+      {
+        "city": "South El Monte", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$323,789", 
+        "name": "Greater El Monte Community Hospital", 
+        "patientDays": "14,772", 
+        "staffedBeds": "117", 
+        "totalDischarges": "3,144"
+      }, 
+      {
+        "city": "Torrance", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$2,191,561", 
+        "name": "Harbor-UCLA Medical Center", 
+        "patientDays": "90,535", 
+        "staffedBeds": "428", 
+        "totalDischarges": "17,504"
+      }, 
+      {
+        "city": "Hollister", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$348,045", 
+        "name": "Hazel Hawkins Memorial Hospital", 
+        "patientDays": "6,892", 
+        "staffedBeds": "168", 
+        "totalDischarges": "1,795"
+      }, 
+      {
+        "city": "Hemet", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$821,196", 
+        "name": "Hemet Global Medical Center", 
+        "patientDays": "42,751", 
+        "staffedBeds": "417", 
+        "totalDischarges": "9,970"
+      }, 
+      {
+        "city": "Valencia", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$1,664,750", 
+        "name": "Henry Mayo Newhall Memorial Hospital", 
+        "patientDays": "49,029", 
+        "staffedBeds": "238", 
+        "totalDischarges": "11,109"
+      }, 
+      {
+        "city": "Joshua Tree", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$318,620", 
+        "name": "Hi-Desert Medical Center", 
+        "patientDays": "5,472", 
+        "staffedBeds": "175", 
+        "totalDischarges": "1,945"
+      }, 
+      {
+        "city": "Oakland", 
+        "county": "Placer", 
+        "grossPatientRevenue": "$2,621,048", 
+        "name": "Highland Hospital", 
+        "patientDays": "59,337", 
+        "staffedBeds": "372", 
+        "totalDischarges": "10,580"
+      }, 
+      {
+        "city": "Irvine", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$0", 
+        "name": "Hoag Hospital Irvine", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Newport Beach", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$3,079,041", 
+        "name": "Hoag Hospital Newport Beach", 
+        "patientDays": "130,372", 
+        "staffedBeds": "518", 
+        "totalDischarges": "31,135"
+      }, 
+      {
+        "city": "Irvine", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$410,979", 
+        "name": "Hoag Orthopedic Institute", 
+        "patientDays": "8,339", 
+        "staffedBeds": "70", 
+        "totalDischarges": "4,585"
+      }, 
+      {
+        "city": "Huntington Beach", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$230,254", 
+        "name": "Huntington Beach Hospital", 
+        "patientDays": "16,198", 
+        "staffedBeds": "131", 
+        "totalDischarges": "3,264"
+      }, 
+      {
+        "city": "Pasadena", 
+        "county": "Tulare", 
+        "grossPatientRevenue": "$3,273,112", 
+        "name": "Huntington Hospital", 
+        "patientDays": "115,763", 
+        "staffedBeds": "568", 
+        "totalDischarges": "27,431"
+      }, 
+      {
+        "city": "Wildomar", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Inland Valley Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Indio", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$1,070,601", 
+        "name": "John F. Kennedy Memorial Hospital", 
+        "patientDays": "21,237", 
+        "staffedBeds": "130", 
+        "totalDischarges": "6,626"
+      }, 
+      {
+        "city": "Roseville", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,468,816", 
+        "name": "Kaiser Permanente Roseville Medical Center", 
+        "patientDays": "93,479", 
+        "staffedBeds": "340", 
+        "totalDischarges": "23,533"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$0", 
+        "name": "Kaiser Permanente San Diego Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Jefferson", 
+        "grossPatientRevenue": "$42,665", 
+        "name": "Kaiser Permanente San Francisco Medical Center", 
+        "patientDays": "58,640", 
+        "staffedBeds": "239", 
+        "totalDischarges": "11,811"
+      }, 
+      {
+        "city": "South San Francisco", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$141,943", 
+        "name": "Kaiser Permanente South San Francisco Medical Center", 
+        "patientDays": "19,873", 
+        "staffedBeds": "120", 
+        "totalDischarges": "5,617"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$2,017,796", 
+        "name": "Kaiser Permanente Zion Medical Center", 
+        "patientDays": "107,544", 
+        "staffedBeds": "536", 
+        "totalDischarges": "25,202"
+      }, 
+      {
+        "city": "Visalia", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$2,210,690", 
+        "name": "Kaweah Delta Health Care District", 
+        "patientDays": "115,606", 
+        "staffedBeds": "581", 
+        "totalDischarges": "23,675"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$3,469,205", 
+        "name": "Keck Hospital of USC", 
+        "patientDays": "78,713", 
+        "staffedBeds": "330", 
+        "totalDischarges": "11,725"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$849,792", 
+        "name": "Kern Medical Center", 
+        "patientDays": "51,151", 
+        "staffedBeds": "222", 
+        "totalDischarges": "10,057"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Santa Barbara", 
+        "grossPatientRevenue": "$235,103", 
+        "name": "LA Downtown Medical Center Downtown Campus", 
+        "patientDays": "54,191", 
+        "staffedBeds": "234", 
+        "totalDischarges": "6,574"
+      }, 
+      {
+        "city": "La Palma", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$196,842", 
+        "name": "La Palma Intercommunity Hospital", 
+        "patientDays": "11,170", 
+        "staffedBeds": "140", 
+        "totalDischarges": "2,890"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$423,268", 
+        "name": "Laguna Honda Hospital and Rehabilitation Center", 
+        "patientDays": "93", 
+        "staffedBeds": "780", 
+        "totalDischarges": "24"
+      }, 
+      {
+        "city": "Lakewood", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,603,301", 
+        "name": "Lakewood Regional Medical Center", 
+        "patientDays": "40,882", 
+        "staffedBeds": "172", 
+        "totalDischarges": "8,720"
+      }, 
+      {
+        "city": "Loma Linda", 
+        "county": "Fairfield", 
+        "grossPatientRevenue": "$2,326,858", 
+        "name": "Loma Linda University Children's Hospital", 
+        "patientDays": "88,968", 
+        "staffedBeds": "343", 
+        "totalDischarges": "10,859"
+      }, 
+      {
+        "city": "Loma Linda", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$5,905,347", 
+        "name": "Loma Linda University Medical Center", 
+        "patientDays": "105,522", 
+        "staffedBeds": "524", 
+        "totalDischarges": "22,810"
+      }, 
+      {
+        "city": "Murrieta", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,006,291", 
+        "name": "Loma Linda University Medical Center - Murrieta", 
+        "patientDays": "32,915", 
+        "staffedBeds": "112", 
+        "totalDischarges": "8,348"
+      }, 
+      {
+        "city": "Loma Linda", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$0", 
+        "name": "Loma Linda University Medical Center East Campus", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Redlands", 
+        "county": "Humboldt", 
+        "grossPatientRevenue": "$0", 
+        "name": "Loma Linda University Surgical Hospital", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Lompoc", 
+        "county": "Madera", 
+        "grossPatientRevenue": "$179,169", 
+        "name": "Lompoc Valley Medical Center", 
+        "patientDays": "7,262", 
+        "staffedBeds": "170", 
+        "totalDischarges": "1,808"
+      }, 
+      {
+        "city": "Long Beach", 
+        "county": "San Joaquin", 
+        "grossPatientRevenue": "$2,723,888", 
+        "name": "Long Beach Medical Center", 
+        "patientDays": "96,989", 
+        "staffedBeds": "453", 
+        "totalDischarges": "21,321"
+      }, 
+      {
+        "city": "Los Alamitos", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,778,551", 
+        "name": "Los Alamitos Medical Center", 
+        "patientDays": "41,510", 
+        "staffedBeds": "146", 
+        "totalDischarges": "8,858"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "El Dorado", 
+        "grossPatientRevenue": "$553,556", 
+        "name": "Los Angeles Community Hospital", 
+        "patientDays": "52,093", 
+        "staffedBeds": "324", 
+        "totalDischarges": "10,549"
+      }, 
+      {
+        "city": "Norwalk", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Los Angeles Community Hospital at Norwalk", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Monterey", 
+        "grossPatientRevenue": "$3,977,954", 
+        "name": "Los Angeles County and University of Southern California Medical Center", 
+        "patientDays": "175,910", 
+        "staffedBeds": "670", 
+        "totalDischarges": "30,230"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Merced", 
+        "grossPatientRevenue": "$3,653,265", 
+        "name": "Los Angeles Medical Center", 
+        "patientDays": "126,450", 
+        "staffedBeds": "528", 
+        "totalDischarges": "24,306"
+      }, 
+      {
+        "city": "Thousand Oaks", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$3,135,881", 
+        "name": "Los Robles Regional Medical Center", 
+        "patientDays": "74,482", 
+        "staffedBeds": "327", 
+        "totalDischarges": "15,484"
+      }, 
+      {
+        "city": "Arcata", 
+        "county": "Stanislaus", 
+        "grossPatientRevenue": "$219,838", 
+        "name": "Mad River Community Hospital", 
+        "patientDays": "8,354", 
+        "staffedBeds": "49", 
+        "totalDischarges": "1,832"
+      }, 
+      {
+        "city": "Madera", 
+        "county": "Menifee", 
+        "grossPatientRevenue": "$202,640", 
+        "name": "Madera Community Hospital", 
+        "patientDays": "16,831", 
+        "staffedBeds": "106", 
+        "totalDischarges": "3,890"
+      }, 
+      {
+        "city": "Manteca", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$1,286,514", 
+        "name": "Manteca Medical Center", 
+        "patientDays": "42,615", 
+        "staffedBeds": "251", 
+        "totalDischarges": "11,793"
+      }, 
+      {
+        "city": "Santa Maria", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$2,435,811", 
+        "name": "Marian Regional Medical Center", 
+        "patientDays": "60,821", 
+        "staffedBeds": "388", 
+        "totalDischarges": "14,933"
+      }, 
+      {
+        "city": "Marina Del Rey", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$604,619", 
+        "name": "Marina Del Rey Hospital", 
+        "patientDays": "15,798", 
+        "staffedBeds": "103", 
+        "totalDischarges": "4,680"
+      }, 
+      {
+        "city": "Placerville", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$1,150,035", 
+        "name": "Marshall Medical Center", 
+        "patientDays": "22,005", 
+        "staffedBeds": "124", 
+        "totalDischarges": "5,133"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Kern", 
+        "grossPatientRevenue": "$2,289,701", 
+        "name": "Martin Luther King, Jr. Community Hospital", 
+        "patientDays": "35,944", 
+        "staffedBeds": "131", 
+        "totalDischarges": "8,720"
+      }, 
+      {
+        "city": "King City", 
+        "county": "Merced", 
+        "grossPatientRevenue": "$209,615", 
+        "name": "Mee Memorial Hospital", 
+        "patientDays": "3,066", 
+        "staffedBeds": "95", 
+        "totalDischarges": "844"
+      }, 
+      {
+        "city": "Los Banos", 
+        "county": "Shasta", 
+        "grossPatientRevenue": "$249,053", 
+        "name": "Memorial Hospital Los Banos", 
+        "patientDays": "4,930", 
+        "staffedBeds": "40", 
+        "totalDischarges": "1,199"
+      }, 
+      {
+        "city": "Gardena", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$697,044", 
+        "name": "Memorial Hospital of Gardena", 
+        "patientDays": "24,789", 
+        "staffedBeds": "172", 
+        "totalDischarges": "6,412"
+      }, 
+      {
+        "city": "Modesto", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,333,215", 
+        "name": "Memorial Medical Center", 
+        "patientDays": "78,330", 
+        "staffedBeds": "419", 
+        "totalDischarges": "15,932"
+      }, 
+      {
+        "city": "Menifee", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$233,912", 
+        "name": "Menifee Global Medical Center", 
+        "patientDays": "12,644", 
+        "staffedBeds": "84", 
+        "totalDischarges": "3,028"
+      }, 
+      {
+        "city": "Menlo Park", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$54,086", 
+        "name": "Menlo Park Surgical Hospital", 
+        "patientDays": "346", 
+        "staffedBeds": "16", 
+        "totalDischarges": "225"
+      }, 
+      {
+        "city": "Sacramento", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$3,001,298", 
+        "name": "Mercy General Hospital", 
+        "patientDays": "61,149", 
+        "staffedBeds": "419", 
+        "totalDischarges": "14,085"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$1,348,578", 
+        "name": "Mercy Hospital Downtown Bakersfield", 
+        "patientDays": "43,497", 
+        "staffedBeds": "226", 
+        "totalDischarges": "11,632"
+      }, 
+      {
+        "city": "Folsom", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$1,054,478", 
+        "name": "Mercy Hospital of Folsom", 
+        "patientDays": "25,384", 
+        "staffedBeds": "106", 
+        "totalDischarges": "6,827"
+      }, 
+      {
+        "city": "Bakersfield", 
+        "county": "Stanislaus", 
+        "grossPatientRevenue": "$0", 
+        "name": "Mercy Hospital Southwest", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Merced", 
+        "county": "Essex", 
+        "grossPatientRevenue": "$1,452,445", 
+        "name": "Mercy Medical Center", 
+        "patientDays": "49,054", 
+        "staffedBeds": "186", 
+        "totalDischarges": "11,860"
+      }, 
+      {
+        "city": "Redding", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,843,469", 
+        "name": "Mercy Medical Center Redding", 
+        "patientDays": "62,477", 
+        "staffedBeds": "262", 
+        "totalDischarges": "13,455"
+      }, 
+      {
+        "city": "Carmichael", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$3,239,223", 
+        "name": "Mercy San Juan Medical Center", 
+        "patientDays": "95,698", 
+        "staffedBeds": "370", 
+        "totalDischarges": "20,296"
+      }, 
+      {
+        "city": "Arcadia", 
+        "county": "Monterey", 
+        "grossPatientRevenue": "$1,789,260", 
+        "name": "Methodist Hospital", 
+        "patientDays": "69,736", 
+        "staffedBeds": "348", 
+        "totalDischarges": "14,208"
+      }, 
+      {
+        "city": "Sacramento", 
+        "county": "Kings", 
+        "grossPatientRevenue": "$1,334,586", 
+        "name": "Methodist Hospital of Sacramento", 
+        "patientDays": "37,796", 
+        "staffedBeds": "329", 
+        "totalDischarges": "9,618"
+      }, 
+      {
+        "city": "Burlingame", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,744,901", 
+        "name": "Mills-Peninsula Medical Center", 
+        "patientDays": "51,771", 
+        "staffedBeds": "301", 
+        "totalDischarges": "10,158"
+      }, 
+      {
+        "city": "Panorama City", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$375,991", 
+        "name": "Mission Community Hospital", 
+        "patientDays": "44,713", 
+        "staffedBeds": "145", 
+        "totalDischarges": "9,046"
+      }, 
+      {
+        "city": "Laguna Beach", 
+        "county": "Fairfield", 
+        "grossPatientRevenue": "$246,219", 
+        "name": "Mission Hospital Laguna Beach", 
+        "patientDays": "14,617", 
+        "staffedBeds": "189", 
+        "totalDischarges": "3,028"
+      }, 
+      {
+        "city": "Mission Viejo", 
+        "county": "Solano", 
+        "grossPatientRevenue": "$2,743,367", 
+        "name": "Mission Hospital Mission Viejo", 
+        "patientDays": "78,352", 
+        "staffedBeds": "523", 
+        "totalDischarges": "17,856"
+      }, 
+      {
+        "city": "Modesto", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Modesto Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Montclair", 
+        "county": "Marin", 
+        "grossPatientRevenue": "$250,865", 
+        "name": "Montclair Hospital Medical Center", 
+        "patientDays": "10,490", 
+        "staffedBeds": "106", 
+        "totalDischarges": "3,218"
+      }, 
+      {
+        "city": "Monterey Park", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$658,157", 
+        "name": "Monterey Park Hospital", 
+        "patientDays": "21,067", 
+        "staffedBeds": "101", 
+        "totalDischarges": "4,898"
+      }, 
+      {
+        "city": "Moreno Valley", 
+        "county": "Washington", 
+        "grossPatientRevenue": "$396,159", 
+        "name": "Moreno Valley Medical Center", 
+        "patientDays": "14,442", 
+        "staffedBeds": "94", 
+        "totalDischarges": "4,720"
+      }, 
+      {
+        "city": "Salinas", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$1,200,935", 
+        "name": "Natividad Medical Center", 
+        "patientDays": "35,339", 
+        "staffedBeds": "172", 
+        "totalDischarges": "8,488"
+      }, 
+      {
+        "city": "Lemoore", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Naval Health Clinic Lemoore", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Camp Pendleton", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Naval Hospital Camp Pendleton", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$0", 
+        "name": "Naval Medical Center San Diego", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Fairfield", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$3,798,736", 
+        "name": "NorthBay Medical Center", 
+        "patientDays": "44,007", 
+        "staffedBeds": "182", 
+        "totalDischarges": "9,516"
+      }, 
+      {
+        "city": "Vacaville", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$540,493", 
+        "name": "NorthBay VacaValley Hospital", 
+        "patientDays": "11,822", 
+        "staffedBeds": "50", 
+        "totalDischarges": "2,683"
+      }, 
+      {
+        "city": "Northridge", 
+        "county": "Butte", 
+        "grossPatientRevenue": "$2,331,869", 
+        "name": "Northridge Hospital Medical Center", 
+        "patientDays": "51,230", 
+        "staffedBeds": "394", 
+        "totalDischarges": "12,668"
+      }, 
+      {
+        "city": "Novato", 
+        "county": "Lamar", 
+        "grossPatientRevenue": "$238,713", 
+        "name": "Novato Community Hospital", 
+        "patientDays": "6,178", 
+        "staffedBeds": "47", 
+        "totalDischarges": "1,945"
+      }, 
+      {
+        "city": "San Jose", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,482,789", 
+        "name": "O'Connor Hospital", 
+        "patientDays": "39,283", 
+        "staffedBeds": "348", 
+        "totalDischarges": "9,357"
+      }, 
+      {
+        "city": "Oakdale", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$179,602", 
+        "name": "Oak Valley Hospital", 
+        "patientDays": "2,891", 
+        "staffedBeds": "150", 
+        "totalDischarges": "680"
+      }, 
+      {
+        "city": "Oakland", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$2,439,046", 
+        "name": "Oakland Medical Center", 
+        "patientDays": "90,961", 
+        "staffedBeds": "365", 
+        "totalDischarges": "20,686"
+      }, 
+      {
+        "city": "Sylmar", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$0", 
+        "name": "Olive View-UCLA Medical Center", 
+        "patientDays": "52,933", 
+        "staffedBeds": "304", 
+        "totalDischarges": "10,939"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$595,128", 
+        "name": "Olympia Medical Center", 
+        "patientDays": "23,619", 
+        "staffedBeds": "204", 
+        "totalDischarges": "4,692"
+      }, 
+      {
+        "city": "Ontario", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Ontario Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Fountain Valley", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,257,751", 
+        "name": "Orange Coast Memorial Medical Center", 
+        "patientDays": "45,983", 
+        "staffedBeds": "218", 
+        "totalDischarges": "11,962"
+      }, 
+      {
+        "city": "Santa Ana", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$913,044", 
+        "name": "Orange County Global Medical Center", 
+        "patientDays": "43,970", 
+        "staffedBeds": "228", 
+        "totalDischarges": "8,497"
+      }, 
+      {
+        "city": "Irvine", 
+        "county": "Shasta", 
+        "grossPatientRevenue": "$0", 
+        "name": "Orange County-Irvine Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Oroville", 
+        "county": "Sonoma", 
+        "grossPatientRevenue": "$907,054", 
+        "name": "Oroville Hospital", 
+        "patientDays": "45,671", 
+        "staffedBeds": "133", 
+        "totalDischarges": "13,372"
+      }, 
+      {
+        "city": "Sun Valley", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$153,417", 
+        "name": "Pacifica Hospital of the Valley", 
+        "patientDays": "18,060", 
+        "staffedBeds": "231", 
+        "totalDischarges": "3,812"
+      }, 
+      {
+        "city": "Palmdale", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,441,416", 
+        "name": "Palmdale Regional Medical Center", 
+        "patientDays": "33,682", 
+        "staffedBeds": "184", 
+        "totalDischarges": "8,196"
+      }, 
+      {
+        "city": "Blythe", 
+        "county": "Imperial", 
+        "grossPatientRevenue": "$65,855", 
+        "name": "Palo Verde Hospital", 
+        "patientDays": "2,508", 
+        "staffedBeds": "51", 
+        "totalDischarges": "983"
+      }, 
+      {
+        "city": "Escondido", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Palomar Medical Center Downtown Escondido", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Escondido", 
+        "county": "Tulare", 
+        "grossPatientRevenue": "$3,293,816", 
+        "name": "Palomar Medical Center Escondido", 
+        "patientDays": "89,760", 
+        "staffedBeds": "329", 
+        "totalDischarges": "24,148"
+      }, 
+      {
+        "city": "Poway", 
+        "county": "Johnson", 
+        "grossPatientRevenue": "$837,912", 
+        "name": "Palomar Medical Center Poway", 
+        "patientDays": "19,869", 
+        "staffedBeds": "236", 
+        "totalDischarges": "5,635"
+      }, 
+      {
+        "city": "Panorama City", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,318,936", 
+        "name": "Panorama City Medical Center", 
+        "patientDays": "33,384", 
+        "staffedBeds": "218", 
+        "totalDischarges": "8,693"
+      }, 
+      {
+        "city": "National City", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$448,416", 
+        "name": "Paradise Valley Hospital", 
+        "patientDays": "45,720", 
+        "staffedBeds": "291", 
+        "totalDischarges": "8,313"
+      }, 
+      {
+        "city": "Riverside", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$765,922", 
+        "name": "Parkview Community Hospital Medical Center", 
+        "patientDays": "36,311", 
+        "staffedBeds": "191", 
+        "totalDischarges": "8,149"
+      }, 
+      {
+        "city": "Redding", 
+        "county": "Napa", 
+        "grossPatientRevenue": "$26,974", 
+        "name": "Patients Hospital of Redding", 
+        "patientDays": "306", 
+        "staffedBeds": "10", 
+        "totalDischarges": "159"
+      }, 
+      {
+        "city": "Petaluma", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$508,592", 
+        "name": "Petaluma Valley Hospital", 
+        "patientDays": "10,742", 
+        "staffedBeds": "80", 
+        "totalDischarges": "2,700"
+      }, 
+      {
+        "city": "Downey", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$990,609", 
+        "name": "PIH Health Hospital - Downey", 
+        "patientDays": "30,213", 
+        "staffedBeds": "199", 
+        "totalDischarges": "8,063"
+      }, 
+      {
+        "city": "Whittier", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$3,657,657", 
+        "name": "PIH Health Hospital - Whittier", 
+        "patientDays": "73,313", 
+        "staffedBeds": "384", 
+        "totalDischarges": "17,532"
+      }, 
+      {
+        "city": "Brawley", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$458,362", 
+        "name": "Pioneers Memorial Hospital", 
+        "patientDays": "20,569", 
+        "staffedBeds": "107", 
+        "totalDischarges": "4,992"
+      }, 
+      {
+        "city": "Placentia", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$885,728", 
+        "name": "Placentia-Linda Hospital", 
+        "patientDays": "9,735", 
+        "staffedBeds": "114", 
+        "totalDischarges": "2,967"
+      }, 
+      {
+        "city": "Pomona", 
+        "county": "Richmond City", 
+        "grossPatientRevenue": "$4,476,735", 
+        "name": "Pomona Valley Hospital Medical Center", 
+        "patientDays": "100,547", 
+        "staffedBeds": "412", 
+        "totalDischarges": "21,427"
+      }, 
+      {
+        "city": "Porterville", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$173,197", 
+        "name": "Porterville Developmental Center", 
+        "patientDays": "811", 
+        "staffedBeds": "44", 
+        "totalDischarges": "50"
+      }, 
+      {
+        "city": "Mission Hills", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$2,602,446", 
+        "name": "Providence Holy Cross Medical Center", 
+        "patientDays": "81,440", 
+        "staffedBeds": "377", 
+        "totalDischarges": "17,839"
+      }, 
+      {
+        "city": "San Pedro", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$776,876", 
+        "name": "Providence Little Company of Mary Medical Center San Pedro", 
+        "patientDays": "24,644", 
+        "staffedBeds": "356", 
+        "totalDischarges": "5,330"
+      }, 
+      {
+        "city": "Torrance", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$2,065,567", 
+        "name": "Providence Little Company of Mary Medical Center Torrance", 
+        "patientDays": "74,460", 
+        "staffedBeds": "442", 
+        "totalDischarges": "17,980"
+      }, 
+      {
+        "city": "Burbank", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,487,010", 
+        "name": "Providence Saint Joseph Medical Center", 
+        "patientDays": "73,132", 
+        "staffedBeds": "392", 
+        "totalDischarges": "15,964"
+      }, 
+      {
+        "city": "Tarzana", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$1,292,573", 
+        "name": "Providence Tarzana Medical Center", 
+        "patientDays": "52,685", 
+        "staffedBeds": "246", 
+        "totalDischarges": "12,823"
+      }, 
+      {
+        "city": "Napa", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$1,498,558", 
+        "name": "Queen of the Valley Medical Center", 
+        "patientDays": "29,505", 
+        "staffedBeds": "166", 
+        "totalDischarges": "6,423"
+      }, 
+      {
+        "city": "Downey", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$568,699", 
+        "name": "Rancho Los Amigos National Rehabilitation Center", 
+        "patientDays": "21,353", 
+        "staffedBeds": "210", 
+        "totalDischarges": "1,899"
+      }, 
+      {
+        "city": "Murrieta", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$1,426,302", 
+        "name": "Rancho Springs Medical Center", 
+        "patientDays": "52,738", 
+        "staffedBeds": "240", 
+        "totalDischarges": "15,834"
+      }, 
+      {
+        "city": "Redlands", 
+        "county": "Tehama", 
+        "grossPatientRevenue": "$1,526,187", 
+        "name": "Redlands Community Hospital", 
+        "patientDays": "46,614", 
+        "staffedBeds": "229", 
+        "totalDischarges": "11,177"
+      }, 
+      {
+        "city": "Redwood City", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$839,827", 
+        "name": "Redwood City Medical Center", 
+        "patientDays": "29,624", 
+        "staffedBeds": "149", 
+        "totalDischarges": "8,205"
+      }, 
+      {
+        "city": "San Jose", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$4,387,642", 
+        "name": "Regional Medical Center of San Jose", 
+        "patientDays": "80,140", 
+        "staffedBeds": "258", 
+        "totalDischarges": "14,893"
+      }, 
+      {
+        "city": "Richmond", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$0", 
+        "name": "Richmond Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Riverside", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$5,263,182", 
+        "name": "Riverside Community Hospital", 
+        "patientDays": "122,460", 
+        "staffedBeds": "478", 
+        "totalDischarges": "24,300"
+      }, 
+      {
+        "city": "Riverside", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$54,518", 
+        "name": "Riverside Medical Center", 
+        "patientDays": "44,187", 
+        "staffedBeds": "226", 
+        "totalDischarges": "10,014"
+      }, 
+      {
+        "city": "Moreno Valley", 
+        "county": "Humboldt", 
+        "grossPatientRevenue": "$1,570,896", 
+        "name": "Riverside University Medical Center", 
+        "patientDays": "108,469", 
+        "staffedBeds": "439", 
+        "totalDischarges": "19,161"
+      }, 
+      {
+        "city": "Twentynine Palms", 
+        "county": "Humboldt", 
+        "grossPatientRevenue": "$0", 
+        "name": "Robert E. Bush Naval Hospital", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "San Joaquin", 
+        "grossPatientRevenue": "$5,140,535", 
+        "name": "Ronald Reagan UCLA Medical Center", 
+        "patientDays": "166,121", 
+        "staffedBeds": "445", 
+        "totalDischarges": "22,945"
+      }, 
+      {
+        "city": "Sacramento", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$2,152,881", 
+        "name": "Sacramento Medical Center", 
+        "patientDays": "49,780", 
+        "staffedBeds": "287", 
+        "totalDischarges": "12,242"
+      }, 
+      {
+        "city": "Laguna Hills", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$1,323,941", 
+        "name": "Saddleback Medical Center", 
+        "patientDays": "46,100", 
+        "staffedBeds": "248", 
+        "totalDischarges": "11,939"
+      }, 
+      {
+        "city": "Fresno", 
+        "county": "Dakota", 
+        "grossPatientRevenue": "$1,924,865", 
+        "name": "Saint Agnes Medical Center", 
+        "patientDays": "118,121", 
+        "staffedBeds": "385", 
+        "totalDischarges": "24,569"
+      }, 
+      {
+        "city": "San Bernardino", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$1,876,590", 
+        "name": "Saint Bernardine Medical Center", 
+        "patientDays": "66,653", 
+        "staffedBeds": "328", 
+        "totalDischarges": "15,307"
+      }, 
+      {
+        "city": "Red Bluff", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$503,268", 
+        "name": "Saint Elizabeth Community Hospital", 
+        "patientDays": "10,864", 
+        "staffedBeds": "49", 
+        "totalDischarges": "3,191"
+      }, 
+      {
+        "city": "Lynwood", 
+        "county": "Monterey", 
+        "grossPatientRevenue": "$1,896,998", 
+        "name": "Saint Francis Medical Center", 
+        "patientDays": "101,094", 
+        "staffedBeds": "374", 
+        "totalDischarges": "19,807"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$926,481", 
+        "name": "Saint Francis Memorial Hospital", 
+        "patientDays": "17,732", 
+        "staffedBeds": "211", 
+        "totalDischarges": "3,621"
+      }, 
+      {
+        "city": "Camarillo", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$558,290", 
+        "name": "Saint John's Pleasant Valley Hospital", 
+        "patientDays": "14,616", 
+        "staffedBeds": "155", 
+        "totalDischarges": "3,806"
+      }, 
+      {
+        "city": "Oxnard", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$1,551,509", 
+        "name": "Saint John's Regional Medical Center", 
+        "patientDays": "50,030", 
+        "staffedBeds": "265", 
+        "totalDischarges": "10,593"
+      }, 
+      {
+        "city": "Orange", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,912,481", 
+        "name": "Saint Joseph Hospital", 
+        "patientDays": "81,128", 
+        "staffedBeds": "446", 
+        "totalDischarges": "19,280"
+      }, 
+      {
+        "city": "Eureka", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$0", 
+        "name": "Saint Joseph Hospital Acute Rehabilitation Unit", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Eureka", 
+        "county": "San Joaquin", 
+        "grossPatientRevenue": "$1,396,649", 
+        "name": "Saint Joseph Hospital Eureka", 
+        "patientDays": "33,960", 
+        "staffedBeds": "149", 
+        "totalDischarges": "6,914"
+      }, 
+      {
+        "city": "Stockton", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$3,677,037", 
+        "name": "Saint Joseph's Medical Center", 
+        "patientDays": "96,677", 
+        "staffedBeds": "348", 
+        "totalDischarges": "20,618"
+      }, 
+      {
+        "city": "Fullerton", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$2,383,060", 
+        "name": "Saint Jude Medical Center", 
+        "patientDays": "63,334", 
+        "staffedBeds": "320", 
+        "totalDischarges": "14,179"
+      }, 
+      {
+        "city": "Gilroy", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$487,767", 
+        "name": "Saint Louise Regional Hospital", 
+        "patientDays": "11,489", 
+        "staffedBeds": "72", 
+        "totalDischarges": "3,023"
+      }, 
+      {
+        "city": "Apple Valley", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$1,723,298", 
+        "name": "Saint Mary Medical Center", 
+        "patientDays": "67,995", 
+        "staffedBeds": "212", 
+        "totalDischarges": "14,145"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Marin", 
+        "grossPatientRevenue": "$899,242", 
+        "name": "Saint Mary's Medical Center", 
+        "patientDays": "19,584", 
+        "staffedBeds": "159", 
+        "totalDischarges": "3,875"
+      }, 
+      {
+        "city": "Hayward", 
+        "county": "Santa Barbara", 
+        "grossPatientRevenue": "$619,899", 
+        "name": "Saint Rose Hospital", 
+        "patientDays": "22,139", 
+        "staffedBeds": "195", 
+        "totalDischarges": "4,941"
+      }, 
+      {
+        "city": "Salinas", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$2,130,504", 
+        "name": "Salinas Valley Memorial Hospital", 
+        "patientDays": "48,314", 
+        "staffedBeds": "240", 
+        "totalDischarges": "11,385"
+      }, 
+      {
+        "city": "Upland", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$2,259,006", 
+        "name": "San Antonio Regional Hospital", 
+        "patientDays": "71,312", 
+        "staffedBeds": "363", 
+        "totalDischarges": "17,726"
+      }, 
+      {
+        "city": "San Dimas", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$249,129", 
+        "name": "San Dimas Community Hospital", 
+        "patientDays": "13,199", 
+        "staffedBeds": "95", 
+        "totalDischarges": "3,578"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$0", 
+        "name": "San Francisco VA Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "San Gabriel", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,113,569", 
+        "name": "San Gabriel Valley Medical Center", 
+        "patientDays": "41,494", 
+        "staffedBeds": "273", 
+        "totalDischarges": "8,411"
+      }, 
+      {
+        "city": "Banning", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$294,589", 
+        "name": "San Gorgonio Memorial Hospital", 
+        "patientDays": "10,460", 
+        "staffedBeds": "61", 
+        "totalDischarges": "2,858"
+      }, 
+      {
+        "city": "French Camp", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,639,047", 
+        "name": "San Joaquin General Hospital", 
+        "patientDays": "48,402", 
+        "staffedBeds": "196", 
+        "totalDischarges": "10,432"
+      }, 
+      {
+        "city": "San Jose", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,238,690", 
+        "name": "San Jose Medical Center Main Campus", 
+        "patientDays": "41,678", 
+        "staffedBeds": "235", 
+        "totalDischarges": "11,607"
+      }, 
+      {
+        "city": "San Leandro", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$434,067", 
+        "name": "San Leandro Hospital", 
+        "patientDays": "12,095", 
+        "staffedBeds": "45", 
+        "totalDischarges": "2,854"
+      }, 
+      {
+        "city": "San Leandro", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$1,485,405", 
+        "name": "San Leandro Medical Center", 
+        "patientDays": "44,320", 
+        "staffedBeds": "206", 
+        "totalDischarges": "11,608"
+      }, 
+      {
+        "city": "San Mateo", 
+        "county": "San Mateo", 
+        "grossPatientRevenue": "$473,387", 
+        "name": "San Mateo Medical Center", 
+        "patientDays": "13,731", 
+        "staffedBeds": "508", 
+        "totalDischarges": "2,292"
+      }, 
+      {
+        "city": "San Rafael", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$579,602", 
+        "name": "San Rafael Medical Center", 
+        "patientDays": "15,002", 
+        "staffedBeds": "116", 
+        "totalDischarges": "4,133"
+      }, 
+      {
+        "city": "San Ramon", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,143,695", 
+        "name": "San Ramon Regional Medical Center", 
+        "patientDays": "18,419", 
+        "staffedBeds": "123", 
+        "totalDischarges": "4,730"
+      }, 
+      {
+        "city": "Santa Barbara", 
+        "county": "Maricopa", 
+        "grossPatientRevenue": "$1,891,266", 
+        "name": "Santa Barbara Cottage Hospital", 
+        "patientDays": "83,166", 
+        "staffedBeds": "363", 
+        "totalDischarges": "17,068"
+      }, 
+      {
+        "city": "Santa Clara", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$0", 
+        "name": "Santa Clara Medical Center", 
+        "patientDays": "83,191", 
+        "staffedBeds": "327", 
+        "totalDischarges": "18,661"
+      }, 
+      {
+        "city": "San Jose", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$4,245,690", 
+        "name": "Santa Clara Valley Medical Center", 
+        "patientDays": "120,937", 
+        "staffedBeds": "974", 
+        "totalDischarges": "21,100"
+      }, 
+      {
+        "city": "Santa Paula", 
+        "county": "Shasta", 
+        "grossPatientRevenue": "$0", 
+        "name": "Santa Paula Hospital", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Santa Rosa", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$951,504", 
+        "name": "Santa Rosa Hospital", 
+        "patientDays": "35,672", 
+        "staffedBeds": "173", 
+        "totalDischarges": "9,456"
+      }, 
+      {
+        "city": "Santa Rosa", 
+        "county": "Nevada", 
+        "grossPatientRevenue": "$3,019,575", 
+        "name": "Santa Rosa Memorial Hospital", 
+        "patientDays": "67,738", 
+        "staffedBeds": "298", 
+        "totalDischarges": "12,004"
+      }, 
+      {
+        "city": "La Jolla", 
+        "county": "Tulare", 
+        "grossPatientRevenue": "$1,417,925", 
+        "name": "Scripps Green Hospital", 
+        "patientDays": "29,500", 
+        "staffedBeds": "150", 
+        "totalDischarges": "8,028"
+      }, 
+      {
+        "city": "Encinitas", 
+        "county": "San Luis Obispo", 
+        "grossPatientRevenue": "$1,363,718", 
+        "name": "Scripps Memorial Hospital Encinitas", 
+        "patientDays": "48,340", 
+        "staffedBeds": "193", 
+        "totalDischarges": "12,103"
+      }, 
+      {
+        "city": "La Jolla", 
+        "county": "Scott", 
+        "grossPatientRevenue": "$3,543,390", 
+        "name": "Scripps Memorial Hospital La Jolla", 
+        "patientDays": "87,972", 
+        "staffedBeds": "365", 
+        "totalDischarges": "18,731"
+      }, 
+      {
+        "city": "Chula Vista", 
+        "county": "Sonoma", 
+        "grossPatientRevenue": "$310,012", 
+        "name": "Scripps Mercy Hospital Chula Vista", 
+        "patientDays": "47,697", 
+        "staffedBeds": "173", 
+        "totalDischarges": "9,592"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$3,472,243", 
+        "name": "Scripps Mercy Hospital San Diego", 
+        "patientDays": "130,930", 
+        "staffedBeds": "523", 
+        "totalDischarges": "29,399"
+      }, 
+      {
+        "city": "Redwood City", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$1,265,489", 
+        "name": "Sequoia Hospital", 
+        "patientDays": "21,850", 
+        "staffedBeds": "208", 
+        "totalDischarges": "5,412"
+      }, 
+      {
+        "city": "Daly City", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$1,466,907", 
+        "name": "Seton Medical Center", 
+        "patientDays": "19,390", 
+        "staffedBeds": "434", 
+        "totalDischarges": "4,477"
+      }, 
+      {
+        "city": "Moss Beach", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "Seton Medical Center Coastside", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Chula Vista", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,216,676", 
+        "name": "Sharp Chula Vista Medical Center", 
+        "patientDays": "75,139", 
+        "staffedBeds": "343", 
+        "totalDischarges": "15,528"
+      }, 
+      {
+        "city": "Coronado", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$387,702", 
+        "name": "Sharp Coronado Hospital", 
+        "patientDays": "6,896", 
+        "staffedBeds": "181", 
+        "totalDischarges": "2,080"
+      }, 
+      {
+        "city": "La Mesa", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$3,745,598", 
+        "name": "Sharp Grossmont Hospital", 
+        "patientDays": "116,601", 
+        "staffedBeds": "524", 
+        "totalDischarges": "26,552"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$0", 
+        "name": "Sharp Mary Birch Hospital for Women and Newborns", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$5,622,192", 
+        "name": "Sharp Memorial Hospital", 
+        "patientDays": "169,224", 
+        "staffedBeds": "862", 
+        "totalDischarges": "33,122"
+      }, 
+      {
+        "city": "Redding", 
+        "county": "Stanislaus", 
+        "grossPatientRevenue": "$809,107", 
+        "name": "Shasta Regional Medical Center", 
+        "patientDays": "30,269", 
+        "staffedBeds": "226", 
+        "totalDischarges": "6,736"
+      }, 
+      {
+        "city": "Sherman Oaks", 
+        "county": "Hinds", 
+        "grossPatientRevenue": "$404,027", 
+        "name": "Sherman Oaks Hospital", 
+        "patientDays": "20,540", 
+        "staffedBeds": "153", 
+        "totalDischarges": "5,070"
+      }, 
+      {
+        "city": "Grass Valley", 
+        "county": "Lee", 
+        "grossPatientRevenue": "$723,678", 
+        "name": "Sierra Nevada Memorial Hospital", 
+        "patientDays": "19,665", 
+        "staffedBeds": "104", 
+        "totalDischarges": "5,365"
+      }, 
+      {
+        "city": "Porterville", 
+        "county": "Del Norte", 
+        "grossPatientRevenue": "$667,067", 
+        "name": "Sierra View District Hospital", 
+        "patientDays": "26,404", 
+        "staffedBeds": "163", 
+        "totalDischarges": "6,182"
+      }, 
+      {
+        "city": "San Luis Obispo", 
+        "county": "Davis", 
+        "grossPatientRevenue": "$967,250", 
+        "name": "Sierra Vista Regional Medical Center", 
+        "patientDays": "26,366", 
+        "staffedBeds": "162", 
+        "totalDischarges": "5,615"
+      }, 
+      {
+        "city": "Eldridge", 
+        "county": "Contra Costa", 
+        "grossPatientRevenue": "$123,257", 
+        "name": "Sonoma Developmental Center", 
+        "patientDays": "1,024", 
+        "staffedBeds": "13", 
+        "totalDischarges": "59"
+      }, 
+      {
+        "city": "Sebastopol", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$25,811", 
+        "name": "Sonoma Specialty Hospital", 
+        "patientDays": "1,590", 
+        "staffedBeds": "37", 
+        "totalDischarges": "5,074"
+      }, 
+      {
+        "city": "Sonoma", 
+        "county": "Placer", 
+        "grossPatientRevenue": "$272,037", 
+        "name": "Sonoma Valley Hospital", 
+        "patientDays": "3,940", 
+        "staffedBeds": "75", 
+        "totalDischarges": "1,022"
+      }, 
+      {
+        "city": "Harbor City", 
+        "county": "Solano", 
+        "grossPatientRevenue": "$1,479,009", 
+        "name": "South Bay Medical Center", 
+        "patientDays": "40,205", 
+        "staffedBeds": "257", 
+        "totalDischarges": "10,793"
+      }, 
+      {
+        "city": "Santa Ana", 
+        "county": "Sutter", 
+        "grossPatientRevenue": "$287,974", 
+        "name": "South Coast Global Medical Center", 
+        "patientDays": "14,535", 
+        "staffedBeds": "178", 
+        "totalDischarges": "3,296"
+      }, 
+      {
+        "city": "Sacramento", 
+        "county": "San Joaquin", 
+        "grossPatientRevenue": "$1,918,236", 
+        "name": "South Sacramento Medical Center", 
+        "patientDays": "56,467", 
+        "staffedBeds": "209", 
+        "totalDischarges": "14,971"
+      }, 
+      {
+        "city": "Culver City", 
+        "county": "Riverside", 
+        "grossPatientRevenue": "$661,412", 
+        "name": "Southern California Hospital at Culver City", 
+        "patientDays": "35,870", 
+        "staffedBeds": "406", 
+        "totalDischarges": "7,021"
+      }, 
+      {
+        "city": "Hollywood", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$1,162,900", 
+        "name": "Southern California Hospital at Hollywood", 
+        "patientDays": "107,073", 
+        "staffedBeds": "612", 
+        "totalDischarges": "19,465"
+      }, 
+      {
+        "city": "Long Beach", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$1,108,338", 
+        "name": "St. Mary Medical Center Long Beach", 
+        "patientDays": "56,990", 
+        "staffedBeds": "284", 
+        "totalDischarges": "11,687"
+      }, 
+      {
+        "city": "Pleasanton", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$0", 
+        "name": "Stanford Health - ValleyCare - Pleasanton", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Livermore", 
+        "county": "Carroll", 
+        "grossPatientRevenue": "$1,260,139", 
+        "name": "Stanford Health Care - ValleyCare-Livermore", 
+        "patientDays": "27,043", 
+        "staffedBeds": "207", 
+        "totalDischarges": "8,287"
+      }, 
+      {
+        "city": "Stanford", 
+        "county": "Sacramento", 
+        "grossPatientRevenue": "$17,968,318", 
+        "name": "Stanford Hospital", 
+        "patientDays": "144,224", 
+        "staffedBeds": "477", 
+        "totalDischarges": "26,067"
+      }, 
+      {
+        "city": "Modesto", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$117,296", 
+        "name": "Stanislaus Surgical Hospital", 
+        "patientDays": "889", 
+        "staffedBeds": "23", 
+        "totalDischarges": "476"
+      }, 
+      {
+        "city": "Jackson", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$289,980", 
+        "name": "Sutter Amador Hospital", 
+        "patientDays": "9,432", 
+        "staffedBeds": "52", 
+        "totalDischarges": "2,184"
+      }, 
+      {
+        "city": "Auburn", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$515,068", 
+        "name": "Sutter Auburn Faith Hospital", 
+        "patientDays": "10,265", 
+        "staffedBeds": "64", 
+        "totalDischarges": "3,070"
+      }, 
+      {
+        "city": "Crescent City", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$271,793", 
+        "name": "Sutter Coast Hospital", 
+        "patientDays": "7,875", 
+        "staffedBeds": "49", 
+        "totalDischarges": "2,195"
+      }, 
+      {
+        "city": "Davis", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$450,202", 
+        "name": "Sutter Davis Hospital", 
+        "patientDays": "13,160", 
+        "staffedBeds": "48", 
+        "totalDischarges": "3,038"
+      }, 
+      {
+        "city": "Antioch", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$784,306", 
+        "name": "Sutter Delta Medical Center", 
+        "patientDays": "29,071", 
+        "staffedBeds": "145", 
+        "totalDischarges": "6,710"
+      }, 
+      {
+        "city": "Santa Cruz", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$204,102", 
+        "name": "Sutter Maternity and Surgery Center of Santa Cruz", 
+        "patientDays": "4,693", 
+        "staffedBeds": "30", 
+        "totalDischarges": "678"
+      }, 
+      {
+        "city": "Sacramento", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$3,760,976", 
+        "name": "Sutter Medical Center", 
+        "patientDays": "140,335", 
+        "staffedBeds": "523", 
+        "totalDischarges": "24,722"
+      }, 
+      {
+        "city": "Roseville", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$2,268,782", 
+        "name": "Sutter Roseville Medical Center", 
+        "patientDays": "75,374", 
+        "staffedBeds": "328", 
+        "totalDischarges": "17,463"
+      }, 
+      {
+        "city": "Santa Rosa", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$882,401", 
+        "name": "Sutter Santa Rosa Regional Hospital", 
+        "patientDays": "28,594", 
+        "staffedBeds": "84", 
+        "totalDischarges": "5,603"
+      }, 
+      {
+        "city": "Vallejo", 
+        "county": "Fresno", 
+        "grossPatientRevenue": "$568,324", 
+        "name": "Sutter Solano Medical Center", 
+        "patientDays": "18,322", 
+        "staffedBeds": "106", 
+        "totalDischarges": "3,786"
+      }, 
+      {
+        "city": "Yuba City", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$80,798", 
+        "name": "Sutter Surgical Hospital - North Valley", 
+        "patientDays": "1,154", 
+        "staffedBeds": "14", 
+        "totalDischarges": "485"
+      }, 
+      {
+        "city": "Tracy", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$455,081", 
+        "name": "Sutter Tracy Community Hospital", 
+        "patientDays": "11,977", 
+        "staffedBeds": "77", 
+        "totalDischarges": "3,405"
+      }, 
+      {
+        "city": "Temecula", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$886,410", 
+        "name": "Temecula Valley Hospital", 
+        "patientDays": "36,273", 
+        "staffedBeds": "140", 
+        "totalDischarges": "8,989"
+      }, 
+      {
+        "city": "Thousand Oaks", 
+        "county": "Greene", 
+        "grossPatientRevenue": "$175,711", 
+        "name": "Thousand Oaks Surgical Hospital", 
+        "patientDays": "2,877", 
+        "staffedBeds": "21", 
+        "totalDischarges": "1,284"
+      }, 
+      {
+        "city": "Torrance", 
+        "county": "Santa Clara", 
+        "grossPatientRevenue": "$3,930,403", 
+        "name": "Torrance Memorial Medical Center", 
+        "patientDays": "109,202", 
+        "staffedBeds": "512", 
+        "totalDischarges": "26,197"
+      }, 
+      {
+        "city": "Oceanside", 
+        "county": "San Diego", 
+        "grossPatientRevenue": "$1,508,326", 
+        "name": "Tri-City Medical Center", 
+        "patientDays": "55,090", 
+        "staffedBeds": "305", 
+        "totalDischarges": "11,454"
+      }, 
+      {
+        "city": "Templeton", 
+        "county": "Solano", 
+        "grossPatientRevenue": "$796,968", 
+        "name": "Twin Cities Community Hospital", 
+        "patientDays": "18,120", 
+        "staffedBeds": "122", 
+        "totalDischarges": "4,538"
+      }, 
+      {
+        "city": "Sacramento", 
+        "county": "Solano", 
+        "grossPatientRevenue": "$9,116,984", 
+        "name": "UC Davis Medical Center", 
+        "patientDays": "185,940", 
+        "staffedBeds": "617", 
+        "totalDischarges": "29,526"
+      }, 
+      {
+        "city": "La Jolla", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "UC San Diego Health - La Jolla Jacobs Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "San Diego", 
+        "county": "Ventura", 
+        "grossPatientRevenue": "$6,710,771", 
+        "name": "UC San Diego Health System - Hillcrest", 
+        "patientDays": "208,561", 
+        "staffedBeds": "701", 
+        "totalDischarges": "33,464"
+      }, 
+      {
+        "city": "Orange", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$4,328,713", 
+        "name": "UCI Health", 
+        "patientDays": "105,093", 
+        "staffedBeds": "414", 
+        "totalDischarges": "20,911"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Contra Costa", 
+        "grossPatientRevenue": "$0", 
+        "name": "UCLA Mattel Children's Hospital", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Santa Monica", 
+        "county": "Contra Costa", 
+        "grossPatientRevenue": "$1,661,236", 
+        "name": "UCLA Medical Center, Santa Monica", 
+        "patientDays": "78,570", 
+        "staffedBeds": "281", 
+        "totalDischarges": "15,321"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Alameda", 
+        "grossPatientRevenue": "$0", 
+        "name": "UCSF Medical Center at Mission Bay", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "Santa Cruz", 
+        "grossPatientRevenue": "$15,270,254", 
+        "name": "UCSF Medical Center at Parnassus", 
+        "patientDays": "235,547", 
+        "staffedBeds": "785", 
+        "totalDischarges": "35,170"
+      }, 
+      {
+        "city": "San Francisco", 
+        "county": "San Bernardino", 
+        "grossPatientRevenue": "$0", 
+        "name": "UCSF Medical Center Betty Irene Moore Women's Hospital", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Orange", 
+        "grossPatientRevenue": "$764,436", 
+        "name": "USC Norris Comprehensive Cancer Center", 
+        "patientDays": "13,660", 
+        "staffedBeds": "60", 
+        "totalDischarges": "1,556"
+      }, 
+      {
+        "city": "Glendale", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$622,400", 
+        "name": "USC Verdugo Hills Hospital", 
+        "patientDays": "19,008", 
+        "staffedBeds": "165", 
+        "totalDischarges": "5,749"
+      }, 
+      {
+        "city": "Fresno", 
+        "county": "Suffolk", 
+        "grossPatientRevenue": "$0", 
+        "name": "VA Central California Health Care System", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Los Angeles", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "VA Greater Los Angeles Healthcare System - West Los Angeles Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Loma Linda", 
+        "county": "Los Angeles", 
+        "grossPatientRevenue": "$0", 
+        "name": "VA Loma Linda Healthcare System", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Long Beach", 
+        "county": "Yolo", 
+        "grossPatientRevenue": "$0", 
+        "name": "VA Long Beach Healthcare System", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }, 
+      {
+        "city": "Mather", 
+        "county": "San Francisco", 
+        "grossPatientRevenue": "$0", 
+        "name": "VA Northern California Health Care System - Valley Division - Sacramento VA Medical Center", 
+        "patientDays": "0", 
+        "staffedBeds": "0", 
+        "totalDischarges": "0"
+      }
+    ]
+  }
