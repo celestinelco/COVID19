@@ -391,8 +391,9 @@
 			// Returns number of staffed hospital beds given geo id
 			function getNumberBeds(county) {
 
+				console.log(hospital_json)
 				var result = hospital_json.filter(function (i, n) {
-					 return i.CTYNAME === county;
+					return i.CTYNAME === county;
 				});
 
 				// check if in list

@@ -1,256 +1,256 @@
 {
-  "data": {
-    "Alameda": {
+  "data": [
+    {
       "CTYNAME": "Alameda", 
       "staffedBeds": 2768
-    }, 
-    "Butte": {
+    },
+    { 
       "CTYNAME": "Butte", 
       "staffedBeds": 837
-    }, 
-    "Carroll": {
+    },
+    { 
       "CTYNAME": "Carroll", 
       "staffedBeds": 207
-    }, 
-    "Colusa": {
+    },
+    { 
       "CTYNAME": "Colusa", 
       "staffedBeds": 217
-    }, 
-    "Contra Costa": {
+    },
+    { 
       "CTYNAME": "Contra Costa", 
       "staffedBeds": 945
-    }, 
-    "Dakota": {
+    },
+    { 
       "CTYNAME": "Dakota", 
       "staffedBeds": 385
-    }, 
-    "Dallas": {
+    },
+    { 
       "CTYNAME": "Dallas", 
       "staffedBeds": 49
-    }, 
-    "Davis": {
+    },
+    { 
       "CTYNAME": "Davis", 
       "staffedBeds": 162
-    }, 
-    "Del Norte": {
+    },
+    { 
       "CTYNAME": "Del Norte", 
       "staffedBeds": 163
-    }, 
-    "El Dorado": {
+    },
+    { 
       "CTYNAME": "El Dorado", 
       "staffedBeds": 371
-    }, 
-    "Essex": {
+    },
+    { 
       "CTYNAME": "Essex", 
       "staffedBeds": 186
-    }, 
-    "Fairfield": {
+    },
+    { 
       "CTYNAME": "Fairfield", 
       "staffedBeds": 646
-    }, 
-    "Fresno": {
+    },
+    { 
       "CTYNAME": "Fresno", 
       "staffedBeds": 1356
-    }, 
-    "Greene": {
+    },
+    { 
       "CTYNAME": "Greene", 
       "staffedBeds": 21
-    }, 
-    "Hinds": {
+    },
+    { 
       "CTYNAME": "Hinds", 
       "staffedBeds": 153
-    }, 
-    "Humboldt": {
+    },
+    { 
       "CTYNAME": "Humboldt", 
       "staffedBeds": 439
-    }, 
-    "Imperial": {
+    },
+    { 
       "CTYNAME": "Imperial", 
       "staffedBeds": 51
-    }, 
-    "Jefferson": {
+    },
+    { 
       "CTYNAME": "Jefferson", 
       "staffedBeds": 239
-    }, 
-    "Johnson": {
+    },
+    { 
       "CTYNAME": "Johnson", 
       "staffedBeds": 236
-    }, 
-    "Kern": {
+    },
+    { 
       "CTYNAME": "Kern", 
       "staffedBeds": 1554
-    }, 
-    "Kings": {
+    },
+    { 
       "CTYNAME": "Kings", 
       "staffedBeds": 559
-    }, 
-    "Lamar": {
+    },
+    { 
       "CTYNAME": "Lamar", 
       "staffedBeds": 47
-    }, 
-    "Lancaster": {
+    },
+    { 
       "CTYNAME": "Lancaster", 
       "staffedBeds": 401
-    }, 
-    "Lee": {
+    },
+    { 
       "CTYNAME": "Lee", 
       "staffedBeds": 104
-    }, 
-    "Los Angeles": {
+    },
+    { 
       "CTYNAME": "Los Angeles", 
       "staffedBeds": 13677
-    }, 
-    "Madera": {
+    },
+    { 
       "CTYNAME": "Madera", 
       "staffedBeds": 170
-    }, 
-    "Maricopa": {
+    },
+    { 
       "CTYNAME": "Maricopa", 
       "staffedBeds": 363
-    }, 
-    "Marin": {
+    },
+    { 
       "CTYNAME": "Marin", 
       "staffedBeds": 500
-    }, 
-    "Mendocino": {
+    },
+    { 
       "CTYNAME": "Mendocino", 
       "staffedBeds": 50
-    }, 
-    "Menifee": {
+    },
+    { 
       "CTYNAME": "Menifee", 
       "staffedBeds": 106
-    }, 
-    "Merced": {
+    },
+    { 
       "CTYNAME": "Merced", 
       "staffedBeds": 623
-    }, 
-    "Merrimack": {
+    },
+    { 
       "CTYNAME": "Merrimack", 
       "staffedBeds": 81
-    }, 
-    "Monterey": {
+    },
+    { 
       "CTYNAME": "Monterey", 
       "staffedBeds": 1514
-    }, 
-    "Napa": {
+    },
+    { 
       "CTYNAME": "Napa", 
       "staffedBeds": 10
-    }, 
-    "Nevada": {
+    },
+    { 
       "CTYNAME": "Nevada", 
       "staffedBeds": 298
-    }, 
-    "Orange": {
+    },
+    { 
       "CTYNAME": "Orange", 
       "staffedBeds": 5023
-    }, 
-    "Placer": {
+    },
+    { 
       "CTYNAME": "Placer", 
       "staffedBeds": 447
-    }, 
-    "Richmond City": {
+    },
+    { 
       "CTYNAME": "Richmond City", 
       "staffedBeds": 412
-    }, 
-    "Riverside": {
+    },
+    { 
       "CTYNAME": "Riverside", 
       "staffedBeds": 3809
-    }, 
-    "Sacramento": {
+    },
+    { 
       "CTYNAME": "Sacramento", 
       "staffedBeds": 1962
-    }, 
-    "San Benito": {
+    },
+    { 
       "CTYNAME": "San Benito", 
       "staffedBeds": 128
-    }, 
-    "San Bernardino": {
+    },
+    { 
       "CTYNAME": "San Bernardino", 
       "staffedBeds": 4666
-    }, 
-    "San Diego": {
+    },
+    { 
       "CTYNAME": "San Diego", 
       "staffedBeds": 4497
-    }, 
-    "San Francisco": {
+    },
+    { 
       "CTYNAME": "San Francisco", 
       "staffedBeds": 4279
-    }, 
-    "San Joaquin": {
+    },
+    { 
       "CTYNAME": "San Joaquin", 
       "staffedBeds": 1403
-    }, 
-    "San Luis Obispo": {
+    },
+    { 
       "CTYNAME": "San Luis Obispo", 
       "staffedBeds": 855
-    }, 
-    "San Mateo": {
+    },
+    { 
       "CTYNAME": "San Mateo", 
       "staffedBeds": 1415
-    }, 
-    "Santa Barbara": {
+    },
+    { 
       "CTYNAME": "Santa Barbara", 
       "staffedBeds": 486
-    }, 
-    "Santa Clara": {
+    },
+    { 
       "CTYNAME": "Santa Clara", 
       "staffedBeds": 3477
-    }, 
-    "Santa Cruz": {
+    },
+    { 
       "CTYNAME": "Santa Cruz", 
       "staffedBeds": 785
-    }, 
-    "Scott": {
+    },
+    { 
       "CTYNAME": "Scott", 
       "staffedBeds": 365
-    }, 
-    "Shasta": {
+    },
+    { 
       "CTYNAME": "Shasta", 
       "staffedBeds": 40
-    }, 
-    "Snohomish": {
+    },
+    { 
       "CTYNAME": "Snohomish", 
       "staffedBeds": 209
-    }, 
-    "Solano": {
+    },
+    { 
       "CTYNAME": "Solano", 
       "staffedBeds": 1519
-    }, 
-    "Sonoma": {
+    },
+    { 
       "CTYNAME": "Sonoma", 
       "staffedBeds": 306
-    }, 
-    "Stanislaus": {
+    },
+    { 
       "CTYNAME": "Stanislaus", 
       "staffedBeds": 813
-    }, 
-    "Suffolk": {
+    },
+    { 
       "CTYNAME": "Suffolk", 
       "staffedBeds": 0
-    }, 
-    "Sutter": {
+    },
+    { 
       "CTYNAME": "Sutter", 
       "staffedBeds": 178
-    }, 
-    "Tehama": {
+    },
+    { 
       "CTYNAME": "Tehama", 
       "staffedBeds": 229
-    }, 
-    "Tulare": {
+    },
+    { 
       "CTYNAME": "Tulare", 
       "staffedBeds": 1177
-    }, 
-    "Ventura": {
+    },
+    { 
       "CTYNAME": "Ventura", 
       "staffedBeds": 2251
-    }, 
-    "Washington": {
+    },
+    { 
       "CTYNAME": "Washington", 
       "staffedBeds": 94
-    }, 
-    "Yolo": {
+    },
+    { 
       "CTYNAME": "Yolo", 
       "staffedBeds": 0
     }
-  }
+  ]
 }
