@@ -95,8 +95,9 @@
 		</div>
 
 		<div id="tooltip" class="hidden">
-			<span style="display: inline-block; padding-bottom: 1em;"> <h4><span id="county">County Name</span> County <span style="font-size: 14px; font-weight: 400;">(<span id="geoid">GEOID</span>)</span></h4> </span>
+			<span style="display: inline-block; padding-bottom: 1em;"> <h4><span id="county">County Name</span> County <span style="font-size: 14px; font-weight: 400;"></span></h4> </span>
 			<p>Confirmed Cases: <span id="confirmed">Confirmed</span></p>
+			<p>Deaths: <span id="deaths">Deaths</span></p>
 			<p>Staffed hospital beds: <span id="beds">Number of Beds</span></p>
 		</div>
 		<p style="position: fixed; bottom: 0; padding: 0 2vw;" >Sources: <a href="https://gist.github.com/threestory/ed0f322d7bb2e3be8ded?short_path=27e563c" target="new">California Counties</a>,
@@ -126,45 +127,46 @@
 						.attr("width", w)
 						.attr("height", h);
 
+			// Load New York Times COVID-19 Data
+			var items;
+			$(document).ready(function() {
+			  $.ajax({
+					url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
+					async: false,
+					success: function (csvd) {
+						// reverse data so freshest data is first
+						 items = $.csv.toObjects(csvd).reverse();
+					},
+			  });
+		   });
 
-
-			// Returns number of confirmed cases given geo id
-			function getNumberConfirmed(geoid) {
+			// Displays number of confirmed cases and deaths given geo id
+			function getCovidData(geoid)
+			{
 				// TO-DO BACKEND: Search NYT (using GEOID) for most recent confirmed case number in this county
 
-				var latestNumber = 0;
+				  // filter so geoid matches and most recent first
+				  var filtered = items.filter(function (i,n){
+					  return i.fips == geoid;
+				 });
 
-				$.ajax({
-				    url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
-				    async: false,
-				    success: function (csvd) {
+				 var filtered_json = JSON.stringify(filtered);
+				 console.log("filtered: " + filtered_json);
 
-						 // reverse data so freshest data is first
-				        var items = $.csv.toObjects(csvd).reverse();
-
-						  // filter so geoid matches and most recent first
-						  var filtered = items.filter(function (i,n){
-					        return i.fips == geoid;
-					    });
-
-						 var filtered_json = JSON.stringify(filtered);
-						 console.log("filtered: " + filtered_json);
-
-						 // check if in list
-						 if (filtered.length > 0)
-						 {
-							 // TO-DO: If time slider is implemented, look up date
-							 // 			if not, return data from newest date
-							 latestNumber = filtered[0].cases;
-							 console.log("latestNumber: " + latestNumber);
-						 }
-
-				    },
-				});
-
-
-			  return latestNumber;
-			};
+				 // check if in list
+				 if (filtered.length > 0)
+				 {
+					 // TO-DO: If time slider is implemented, look up date
+					 // 			if not, return data from newest date
+					 d3.select("#confirmed").text(filtered[0].cases);
+					 d3.select('#deaths').text(filtered[0].deaths);
+				 }
+				 else
+				 {
+					 d3.select("#confirmed").text("No data.");
+					 d3.select('#deaths').text("No data.");
+				 }
+			}
 
 			// Returns number of staffed hospital beds given geo id
 			function getNumberBeds(geoid) {
@@ -193,8 +195,7 @@
 								.text(d.properties.NAME);
 							d3.select("#geoid")
 								.text(d.properties.GEOID); // this is the geoid!
-							d3.select("#confirmed")
-								.text(getNumberConfirmed(d.properties.GEOID));
+							getCovidData(d.properties.GEOID);
 							d3.select("#beds")
 								.text(getNumberBeds(d.properties.GEOID));
 							d3.select("#tooltip")
