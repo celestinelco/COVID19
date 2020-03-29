@@ -325,6 +325,8 @@
 										  .text(d.properties.NAME);
 									  d3.select("#geoid")
 										  .text(d.properties.GEOID); // this is the geoid!
+									  d3.select("#population")
+									  	  .text(numberWithCommas(getPopulation(d.properties.NAME)))
 									  getCovidData(d.properties.GEOID, current_date);
 									  getNumberBeds(d.properties.NAME);
 									  // d3.select("#beds")
@@ -359,7 +361,8 @@
 					 d3.select("#date").text(date.toDateString());
 					 d3.select("#confirmed").text(filtered[0].cases);
 					 d3.select('#deaths').text(filtered[0].deaths);
-					 d3.select('#population').text(numberWithCommas(getPopulation(filtered[0].county)));
+					 // d3.select('#population').text(numberWithCommas(getPopulation(filtered[0].county)));
+					 // d3.select('#population').text(filtered[0].county);
 
 					 if (filtered.length > 1){
 						 d3.select("#delta_confirmed").text("(+" + (parseInt(filtered[0].cases)-parseInt(filtered[1].cases)) + ")");
