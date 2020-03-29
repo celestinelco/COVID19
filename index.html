@@ -10,8 +10,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
 
 		<script src="//d3js.org/d3.v3.min.js"></script>
-		<script src="//use.typekit.net/drk2sev.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 
 		<style type="text/css">
 
@@ -74,23 +73,54 @@
 			}
 
 			#tooltip p {
-			margin: 0;
-			font-size: 16px;
-			line-height: 20px;
+				margin: 0;
+				font-size: 16px;
+				line-height: 20px;
 			}
 
+			.slidecontainer {
+				width: 100%;
+			}
 
+			.slider {
+				-webkit-appearance: none;
+				width: 100%;
+				height: 25px;
+				background: #d3d3d3;
+				outline: none;
+				opacity: 0.7;
+				-webkit-transition: .2s;
+				transition: opacity .2s;
+			}
+
+			.slider:hover {
+				opacity: 1;
+			}
+
+			.slider::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				appearance: none;
+				width: 25px;
+				height: 25px;
+				background: #4CAF50;
+				cursor: pointer;
+			}
+
+			.slider::-moz-range-thumb {
+				width: 25px;
+				height: 25px;
+				background: #4CAF50;
+				cursor: pointer;
+			}
 		</style>
 	</head>
 	<body>
-
-    	<body>
-
 		<div id="container" style="padding-left: 2vw">
 			<img src="cowovid19.svg" alt="logo of cowovid19 collective">
 			<h2 style="font-size: 1.5em; font-weight: 600;">COVID-19 Hospital Bed Capacity by California County </h2>
-			<p style=""><a target="_blank" href="https://www.projectn95.org/vents">Every ventilator donated saves a life. Click to donate.</a></p>
-		</div>
+			<p><a target="_blank" href="https://www.projectn95.org/vents">Every ventilator donated saves a life. Click to donate.</a></p>
+		</div>		
+
 
 		<div id="tooltip" class="hidden">
 			<span style="display: inline-block; padding-bottom: 1em;"> <h4><span id="county">County Name</span> County <span style="font-size: 14px; font-weight: 400;"></span></h4> </span>
@@ -98,10 +128,21 @@
 			<p>Deaths: <span id="deaths">Deaths</span></p>
 			<p>Staffed hospital beds: <span id="beds">Number of Beds</span></p>
 		</div>
-		<p style="position: fixed; bottom: 0; padding: 0.25em 2vw 0.5em; background: #fff; margin: 0;" >Sources: <a href="https://gist.github.com/threestory/ed0f322d7bb2e3be8ded?short_path=27e563c" target="new">California Counties</a>,
-			<a href="https://www.ahd.com/states/hospital_CA.html" target="new">Individual Hospital Statistics for California</a>,
-			<a href="https://github.com/nytimes/covid-19-data" target="new">COVID-19 Data</a>
-		</p>
+
+
+
+		<div style="position: fixed; bottom: 0; padding: 0.25em 2vw 0.5em;">
+			<span style="padding-right: 1em;">March 26, 2020</span>
+			<input type="range" min="1" max="100" value="100">
+
+			<p style="margin-bottom: 0; background: #fff;">
+				Sources: <a href="https://gist.github.com/threestory/ed0f322d7bb2e3be8ded?short_path=27e563c" target="new">California Counties</a>,
+				<a href="https://www.ahd.com/states/hospital_CA.html" target="new">Individual Hospital Statistics for California</a>,
+				<a href="https://github.com/nytimes/covid-19-data" target="new">COVID-19 Data</a>
+			</p>
+		</div>
+
+
 		<script type="text/javascript">
 
 			// Width and height
@@ -137,9 +178,10 @@
 			  });
 		   });
 
+		   console.log("items");
+
 			// Displays number of confirmed cases and deaths given geo id
-			function getCovidData(geoid)
-			{
+			function getCovidData(geoid) {
 				// TO-DO BACKEND: Search NYT (using GEOID) for most recent confirmed case number in this county
 
 				  // filter so geoid matches and most recent first
@@ -168,7 +210,6 @@
 			// Returns number of staffed hospital beds given geo id
 			function getNumberBeds(geoid) {
 				// TO-DO BACKEND: Compile all cities into county and sum number of beds.
-
 			  return "0";
 			};
 
@@ -202,11 +243,7 @@
 						.on("mouseout", function(){
 							d3.select("#tooltip").classed("hidden", true);
 						});
-
 			});
-
 		</script>
-
-
 	</body>
 </html>
