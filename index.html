@@ -22,6 +22,7 @@
 			body {
 			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 			color: #1F1F1F;
+			text-align: center;
 			}
 
 			p {
@@ -41,7 +42,9 @@
 			}
 
 			svg {
-				background-color: white;
+				background-color: transparent;
+				display: block;
+				margin: 0 auto;
 			}
 
 			path {
@@ -120,6 +123,7 @@
 			<img src="cowovid19.svg" alt="logo of cowovid19 collective">
 			<h2 style="font-size: 1.5em; font-weight: 600;">COVID-19 Hospital Bed Capacity by California County </h2>
 			<p><a target="_blank" href="https://www.projectn95.org/vents">Every ventilator donated saves a life. Click to donate.</a></p>
+			<img src="/confirmed_level.PNG" alt="Confirmed number of cases" style="width: 350px; position: absolute; margin-left: 2%;">
 		</div>		
 
 
@@ -155,8 +159,11 @@
 			var max_deaths = 0;
 
 			// color gradients
-			var minColor = "#02D89B";
-			var maxColor = "#006742";
+			var minColor = "#1abdbb";
+			var colorTwo = "#18dbab";
+			var colorThree = "#f4d889";
+			var colorFour = "#f7876b";
+			var maxColor = "#db1848";
 			var grey = "#C9C9C9";
 			var color;
 
@@ -218,7 +225,12 @@
 						// get max num deaths
 						max_deaths = getMax(covid_counties, "deaths").deaths;
 
-						color = d3.scale.linear().domain([minimum, max_confirmed]).range([minColor, maxColor]);
+						pointTwo = 50;
+						pointThree = 100;
+						pointFour = 500;
+						pointFive = 1000;
+
+						color = d3.scale.linear().domain([minimum, pointTwo, pointThree, pointFour, max_confirmed]).range([minColor, colorTwo, colorThree, colorFour, maxColor]);
 
 					},
 			  });
@@ -306,11 +318,11 @@
 	 					return getColor(d.properties.GEOID);
 					})
 			   	.on("mouseover", function(d){
-						var xPosition = w/2 + 150;
-						var yPosition = h/2 - 50;
+						var xPosition = 25;
+						var yPosition = 60;
 						d3.select("#tooltip")
-							.style("left", xPosition + "px")
-							.style("top", yPosition + "px");
+							.style("left", xPosition + "%")
+							.style("top", yPosition + "%");
 						d3.select("#county")
 							.text(d.properties.NAME);
 						d3.select("#geoid")
