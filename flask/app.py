@@ -58,11 +58,14 @@ def hospitalCA():
 @cross_origin(origin='localhost', headers=['Content-Type', 'Authorization'])
 def hospitalCA_CTY():
     dataset = json.load(open("hospital.json"))
-    cty_data = {"data": []}
+    cty_data = {"data": {}}
     for i in range(len(dataset["hospitals"])):
-        cty_data["data"].append({})
-        cty_data["data"][i]["CTYNAME"] = dataset["hospitals"][i]["county"]
-        cty_data["data"][i]["staffedBeds"] = dataset["hospitals"][i]["staffedBeds"]
+        if (dataset["hospitals"][i]["county"] not in cty_data["data"]):
+            cty_data["data"][dataset["hospitals"][i]["county"]] = {}
+            cty_data["data"][dataset["hospitals"][i]["county"]]["CTYNAME"] = dataset["hospitals"][i]["county"]
+            cty_data["data"][dataset["hospitals"][i]["county"]]["staffedBeds"] = int(dataset["hospitals"][i]["staffedBeds"])
+        else:
+            cty_data["data"][dataset["hospitals"][i]["county"]]["staffedBeds"] += int(dataset["hospitals"][i]["staffedBeds"])
     return jsonify(cty_data)
 
 if __name__ == "__main__":
