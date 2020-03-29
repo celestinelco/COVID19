@@ -1,0 +1,294 @@
+{
+    "data": [
+        {
+            "CTYNAME": "Los Angeles",
+            "Pop": 10105518,
+            "GrowthRate": "2.8820"
+        },
+        {
+            "CTYNAME": "San Diego",
+            "Pop": 3343364,
+            "GrowthRate": "7.7356"
+        },
+        {
+            "CTYNAME": "Orange",
+            "Pop": 3185968,
+            "GrowthRate": "5.6160"
+        },
+        {
+            "CTYNAME": "Riverside",
+            "Pop": 2450758,
+            "GrowthRate": "11.3145"
+        },
+        {
+            "CTYNAME": "San Bernardino",
+            "Pop": 2171603,
+            "GrowthRate": "6.4037"
+        },
+        {
+            "CTYNAME": "Santa Clara",
+            "Pop": 1937570,
+            "GrowthRate": "8.4818"
+        },
+        {
+            "CTYNAME": "Alameda",
+            "Pop": 1666753,
+            "GrowthRate": "10.1590"
+        },
+        {
+            "CTYNAME": "Sacramento",
+            "Pop": 1540975,
+            "GrowthRate": "8.4114"
+        },
+        {
+            "CTYNAME": "Contra Costa",
+            "Pop": 1150215,
+            "GrowthRate": "9.2780"
+        },
+        {
+            "CTYNAME": "Fresno",
+            "Pop": 994400,
+            "GrowthRate": "6.6881"
+        },
+        {
+            "CTYNAME": "Kern",
+            "Pop": 896764,
+            "GrowthRate": "6.6215"
+        },
+        {
+            "CTYNAME": "San Francisco",
+            "Pop": 883305,
+            "GrowthRate": "9.6524"
+        },
+        {
+            "CTYNAME": "Ventura",
+            "Pop": 850967,
+            "GrowthRate": "3.1313"
+        },
+        {
+            "CTYNAME": "San Mateo",
+            "Pop": 769545,
+            "GrowthRate": "6.9221"
+        },
+        {
+            "CTYNAME": "San Joaquin",
+            "Pop": 752660,
+            "GrowthRate": "9.5326"
+        },
+        {
+            "CTYNAME": "Stanislaus",
+            "Pop": 549815,
+            "GrowthRate": "6.7260"
+        },
+        {
+            "CTYNAME": "Sonoma",
+            "Pop": 499942,
+            "GrowthRate": "3.1285"
+        },
+        {
+            "CTYNAME": "Tulare",
+            "Pop": 465861,
+            "GrowthRate": "5.1619"
+        },
+        {
+            "CTYNAME": "Solano",
+            "Pop": 446610,
+            "GrowthRate": "7.8914"
+        },
+        {
+            "CTYNAME": "Santa Barbara",
+            "Pop": 446527,
+            "GrowthRate": "5.2546"
+        },
+        {
+            "CTYNAME": "Monterey",
+            "Pop": 435594,
+            "GrowthRate": "4.6105"
+        },
+        {
+            "CTYNAME": "Placer",
+            "Pop": 393149,
+            "GrowthRate": "12.3199"
+        },
+        {
+            "CTYNAME": "San Luis Obispo",
+            "Pop": 284010,
+            "GrowthRate": "5.2649"
+        },
+        {
+            "CTYNAME": "Merced",
+            "Pop": 274765,
+            "GrowthRate": "7.0241"
+        },
+        {
+            "CTYNAME": "Santa Cruz",
+            "Pop": 274255,
+            "GrowthRate": "4.2133"
+        },
+        {
+            "CTYNAME": "Marin",
+            "Pop": 259666,
+            "GrowthRate": "2.6733"
+        },
+        {
+            "CTYNAME": "Butte",
+            "Pop": 231256,
+            "GrowthRate": "5.1426"
+        },
+        {
+            "CTYNAME": "Yolo",
+            "Pop": 220408,
+            "GrowthRate": "9.6105"
+        },
+        {
+            "CTYNAME": "El Dorado",
+            "Pop": 190678,
+            "GrowthRate": "5.2696"
+        },
+        {
+            "CTYNAME": "Imperial",
+            "Pop": 181827,
+            "GrowthRate": "4.0617"
+        },
+        {
+            "CTYNAME": "Shasta",
+            "Pop": 180040,
+            "GrowthRate": "1.5586"
+        },
+        {
+            "CTYNAME": "Madera",
+            "Pop": 157672,
+            "GrowthRate": "4.4144"
+        },
+        {
+            "CTYNAME": "Kings",
+            "Pop": 151366,
+            "GrowthRate": "-0.6661"
+        },
+        {
+            "CTYNAME": "Napa",
+            "Pop": 139417,
+            "GrowthRate": "1.9071"
+        },
+        {
+            "CTYNAME": "Humboldt",
+            "Pop": 136373,
+            "GrowthRate": "1.0170"
+        },
+        {
+            "CTYNAME": "Nevada",
+            "Pop": 99696,
+            "GrowthRate": "0.9222"
+        },
+        {
+            "CTYNAME": "Sutter",
+            "Pop": 96807,
+            "GrowthRate": "2.1677"
+        },
+        {
+            "CTYNAME": "Mendocino",
+            "Pop": 87606,
+            "GrowthRate": "-0.2210"
+        },
+        {
+            "CTYNAME": "Yuba",
+            "Pop": 78041,
+            "GrowthRate": "7.8659"
+        },
+        {
+            "CTYNAME": "Lake",
+            "Pop": 64382,
+            "GrowthRate": "-0.5453"
+        },
+        {
+            "CTYNAME": "Tehama",
+            "Pop": 63916,
+            "GrowthRate": "0.5522"
+        },
+        {
+            "CTYNAME": "San Benito",
+            "Pop": 61537,
+            "GrowthRate": "10.8435"
+        },
+        {
+            "CTYNAME": "Tuolumne",
+            "Pop": 54539,
+            "GrowthRate": "-1.1814"
+        },
+        {
+            "CTYNAME": "Calaveras",
+            "Pop": 45602,
+            "GrowthRate": "0.2947"
+        },
+        {
+            "CTYNAME": "Siskiyou",
+            "Pop": 43724,
+            "GrowthRate": "-2.7015"
+        },
+        {
+            "CTYNAME": "Amador",
+            "Pop": 39383,
+            "GrowthRate": "3.9568"
+        },
+        {
+            "CTYNAME": "Lassen",
+            "Pop": 30802,
+            "GrowthRate": "-11.5698"
+        },
+        {
+            "CTYNAME": "Glenn",
+            "Pop": 28047,
+            "GrowthRate": "-0.2809"
+        },
+        {
+            "CTYNAME": "Del Norte",
+            "Pop": 27828,
+            "GrowthRate": "-2.5903"
+        },
+        {
+            "CTYNAME": "Colusa",
+            "Pop": 21627,
+            "GrowthRate": "0.8863"
+        },
+        {
+            "CTYNAME": "Plumas",
+            "Pop": 18804,
+            "GrowthRate": "-5.5740"
+        },
+        {
+            "CTYNAME": "Inyo",
+            "Pop": 17987,
+            "GrowthRate": "-2.8360"
+        },
+        {
+            "CTYNAME": "Mariposa",
+            "Pop": 17471,
+            "GrowthRate": "-4.4099"
+        },
+        {
+            "CTYNAME": "Mono",
+            "Pop": 14250,
+            "GrowthRate": "-0.0491"
+        },
+        {
+            "CTYNAME": "Trinity",
+            "Pop": 12535,
+            "GrowthRate": "-8.8629"
+        },
+        {
+            "CTYNAME": "Modoc",
+            "Pop": 8777,
+            "GrowthRate": "-9.5061"
+        },
+        {
+            "CTYNAME": "Sierra",
+            "Pop": 2987,
+            "GrowthRate": "-7.2648"
+        },
+        {
+            "CTYNAME": "Alpine",
+            "Pop": 1101,
+            "GrowthRate": "-5.1680"
+        }
+    ]
+}

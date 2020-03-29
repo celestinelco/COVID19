@@ -94,10 +94,12 @@
 		</div>
 
 		<div id="tooltip" class="hidden">
+			<p><span id="date"></span></p>
 			<span style="display: inline-block; padding-bottom: 1em;"> <h4><span id="county">County Name</span> County <span style="font-size: 14px; font-weight: 400;"></span></h4> </span>
-			<p>Confirmed Cases: <span id="confirmed">Confirmed</span></p>
+			<p>Confirmed Cases: <span id="confirmed">Confirmed</span> <span id="delta_confirmed"></span></p>
 			<p>Deaths: <span id="deaths">Deaths</span></p>
-			<p>Staffed hospital beds: <span id="beds">Number of Beds</span></p>
+			<p>Population: <span id="population"></span></p>
+			<p>Staffed hospital beds: <span id="beds"></span></p>
 		</div>
 		<p style="position: fixed; bottom: 0; padding: 0.25em 2vw 0.5em; background: #fff; margin: 0;" >Sources: <a href="https://gist.github.com/threestory/ed0f322d7bb2e3be8ded?short_path=27e563c" target="new">California Counties</a>,
 			<a href="https://www.ahd.com/states/hospital_CA.html" target="new">Individual Hospital Statistics for California</a>,
@@ -117,6 +119,7 @@
 			// color gradients
 			var minColor = "#02D89B";
 			var maxColor = "#006742";
+			var grey = "#C9C9C9";
 			var color;
 
 			// Returns max value by property of json array
@@ -145,6 +148,17 @@
 						.attr("width", w)
 						.attr("height", h);
 
+			// Load population JSON data
+			var pop_json;
+			d3.json("county_populations.json", function(json) {
+				pop_json = json.data;
+			});
+
+			// Display numbers with commas
+			function numberWithCommas(x) {
+			    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+
 			// Load New York Times COVID-19 Data
 			var covid_counties;
 			$(document).ready(function() {
@@ -162,11 +176,9 @@
 
 						// get max confirmed cases
 						max_confirmed = getMax(covid_counties, "cases").cases;
-						console.log("max_confirmed: " + max_confirmed);
 
 						// get max num deaths
 						max_deaths = getMax(covid_counties, "deaths").deaths;
-						console.log("max_deaths: " + max_deaths);
 
 						color = d3.scale.linear().domain([minimum, max_confirmed]).range([minColor, maxColor]);
 
@@ -190,8 +202,16 @@
 				 {
 					 // TO-DO: If time slider is implemented, look up date
 					 // 			if not, return data from newest date
+					 const date = new Date(filtered[0].date);
+
+					 d3.select("#date").text(date.toDateString());
 					 d3.select("#confirmed").text(filtered[0].cases);
 					 d3.select('#deaths').text(filtered[0].deaths);
+					 d3.select('#population').text(numberWithCommas(getPopulation(filtered[0].county)));
+
+					 if (filtered.length > 1){
+						 d3.select("#delta_confirmed").text("(+" + (parseInt(filtered[0].cases)-parseInt(filtered[1].cases)) + ")");
+					 }
 				 }
 				 else
 				 {
@@ -213,7 +233,7 @@
 				  return color(parseInt(filtered[0].cases));
 			  }
 
-			  return "#C9C9C9";
+			  return grey;
 			}
 
 			// Returns number of staffed hospital beds given geo id
@@ -223,10 +243,19 @@
 			  return "0";
 			};
 
-			// Load in GeoJSON data
+			// Returns population given county name
+			function getPopulation(county)
+			{
+				var result = pop_json.filter(function (i, n) {
+					 return i.CTYNAME === county;
+				})[0].Pop;
 
+				return result;
+			};
+
+			// Load in GeoJSON data
 			d3.json("cb_2014_us_county_5m.json", function(json) {
-				console.log(json);
+				// console.log(json);
 
 				// Bind data and create one path per GeoJSON feature
 				svg.selectAll("path")
