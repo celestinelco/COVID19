@@ -251,10 +251,10 @@
 
 						  s_svg = d3.select("body").append("svg")
 							 .attr("width", s_width + margin.left + margin.right)
-							 .attr("height", s_height + margin.top + margin.bottom)
+							 .attr("height", s_height/2 + margin.top + margin.bottom)
 							 .append("g")
 							 // classic transform to position g
-							 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+							 .attr("transform", "translate(" + margin.left + "," + -1 * margin.top + ")");
 
 						  s_svg.append("g")
 								 .attr("class", "x axis")
