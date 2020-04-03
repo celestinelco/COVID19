@@ -346,7 +346,7 @@
 
 				  // filter so geoid matches
 				  var filtered = covid_counties.filter(function (i,n){
-					  return i.fips == geoid && new Date(i.date).getMonth() == current_date.getMonth() && new Date(i.date).getDate() == current_date.getDate();
+					  return i.fips == geoid && new Date(i.date + " 00:00").getMonth() == current_date.getMonth() && new Date(i.date + " 00:00").getDate() == current_date.getDate();
 				 });
 
 				 // check if in list
@@ -357,7 +357,7 @@
 					 d3.select("#date").text(date.toDateString());
 					 d3.select("#confirmed").text(filtered[0].cases);
 					 d3.select('#deaths').text(filtered[0].deaths);
-					 
+
 					 if (filtered.length > 1){
 						 d3.select("#delta_confirmed").text("(+" + (parseInt(filtered[0].cases)-parseInt(filtered[1].cases)) + ")");
 					 }
