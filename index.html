@@ -199,11 +199,15 @@
 			    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 			}
 
-			var xTooltipPosition = 25;
-			var yTooltipPosition = 80;
+			var xTooltipPosition;
+			var yTooltipPosition;
 			$("body").mousemove(function(e) {
 			  xTooltipPosition = e.pageX/window.innerWidth * 100;
 			  yTooltipPosition = e.pageY/window.innerHeight * 100;
+
+			  d3.select("#tooltip")
+				  .style("left", xTooltipPosition + "%")
+				  .style("top", yTooltipPosition + "%");
 		 })
 
 
@@ -322,9 +326,6 @@
 									  return getColor(d.properties.GEOID, current_date);
 								  })
 								  .on("mouseover", function(d){
-									  d3.select("#tooltip")
-										  .style("left", xTooltipPosition + "%")
-										  .style("top", yTooltipPosition + "%");
 									  d3.select("#date")
 									  	  .text(current_date.toDateString())
 									  d3.select("#county")
