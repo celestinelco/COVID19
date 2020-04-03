@@ -1,11 +1,11 @@
 // Width and height
-var w = 760;
-var h = 600;
+let w = 760;
+let h = 600;
 
 // Minimum and maximum for color gradient
-var minimum = 0;
-var max_confirmed = 0;
-var max_deaths = 0;
+let minimum = 0;
+let max_confirmed = 0;
+let max_deaths = 0;
 
 
 pointTwo = 50;
@@ -16,14 +16,14 @@ pointFive = 1000;
 // color gradients going from min to max (left to right)
 
 const color_gradient = ["#1abdbb", "#18dbab", "#f4d889", "#f7876b", "#db1848"]
-var grey = "#C9C9C9";
-var color;
+let grey = "#C9C9C9";
+let color;
 
-var current_date;
+let current_date;
 formatDate = d3.time.format("%b %d");
 
 // parameters
-var margin = {
+let margin = {
     top: 50,
     right: 50,
     bottom: 50,
@@ -34,8 +34,8 @@ var margin = {
 
 // Returns max value by property of json array
 function getMax(arr, prop) {
-    var max;
-    for (var i=0 ; i<arr.length ; i++) {
+    let max;
+    for (let i=0 ; i<arr.length ; i++) {
         if (max == null || parseInt(arr[i][prop]) > parseInt(max[prop]))
             max = arr[i];
     }
@@ -43,28 +43,28 @@ function getMax(arr, prop) {
 }
 
 // Define map projection
-var projection = d3.geo.mercator()
+let projection = d3.geo.mercator()
                        .center([ -120, 37 ])
                        .translate([ w/2, h/2 ])
                        .scale([ w*3.3 ]);
 
 // Define path generator
-var path = d3.geo.path()
+let path = d3.geo.path()
                  .projection(projection);
 
 // Create SVG
-var svg = d3.select("#container")
+let svg = d3.select("#container")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
 
 // Load population JSON data
-var pop_json;
+let pop_json;
 d3.json("county_populations.json", function(json) {
     pop_json = json.data;
 });
 
-var hospital_json;
+let hospital_json;
 d3.json("flask/hospitalCTY.json", function(json) {
     hospital_json = json.data;
 });
@@ -74,8 +74,8 @@ function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-var xTooltipPosition;
-var yTooltipPosition;
+let xTooltipPosition;
+let yTooltipPosition;
 $("body").mousemove(function(e) {
   xTooltipPosition = e.pageX/window.innerWidth * 100;
   yTooltipPosition = e.pageY/window.innerHeight * 100;
@@ -87,19 +87,19 @@ $("body").mousemove(function(e) {
 
 
 // Load New York Times COVID-19 Data
-var covid_counties;
-var min_date;
-var max_date;
-var start_date;
-var timeScale, brush, s_svg, slider, handle;
-var plot;
+let covid_counties;
+let min_date;
+let max_date;
+let start_date;
+let timeScale, brush, s_svg, slider, handle;
+let plot;
 $(document).ready(function() {
   $.ajax({
         url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
         async: false,
         success: function (csvd) {
             // reverse data so freshest data is first
-             var items = $.csv.toObjects(csvd).reverse();
+             let items = $.csv.toObjects(csvd).reverse();
 
              // filter california counties
              covid_counties = items.filter(function (i,n){
@@ -222,7 +222,7 @@ $(document).ready(function() {
 function getCovidData(geoid, current_date)
 {
       // filter so geoid matches
-      var filtered = covid_counties.filter(function (i,n){
+      let filtered = covid_counties.filter(function (i,n){
           return i.fips == geoid && new Date(i.date + " 00:00").getMonth() == current_date.getMonth() && new Date(i.date + " 00:00").getDate() == current_date.getDate();
      });
 
@@ -246,7 +246,7 @@ function getCovidData(geoid, current_date)
 function getColor(geoid, current_date)
 {
     // filter so geoid matches
-    var filtered = covid_counties.filter(function (i,n){
+    let filtered = covid_counties.filter(function (i,n){
         return i.fips == geoid && new Date(i.date + " 00:00").getMonth() == current_date.getMonth() && new Date(i.date + " 00:00").getDate() == current_date.getDate();
   });
 
@@ -262,7 +262,7 @@ function getColor(geoid, current_date)
 // Returns number of staffed hospital beds given geo id
 function getNumberBeds(county) {
 
-    var result = hospital_json.filter(function (i, n) {
+    let result = hospital_json.filter(function (i, n) {
         return i.CTYNAME == county;
     });
 
@@ -283,7 +283,7 @@ function getNumberBeds(county) {
 // Returns population given county name
 function getPopulation(county)
 {
-    var result = pop_json.filter(function (i, n) {
+    let result = pop_json.filter(function (i, n) {
          return i.CTYNAME == county;
     })[0].Pop;
 
