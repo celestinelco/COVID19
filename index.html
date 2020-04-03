@@ -199,6 +199,14 @@
 			    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 			}
 
+			var xTooltipPosition = 25;
+			var yTooltipPosition = 80;
+			$("body").mousemove(function(e) {
+			  xTooltipPosition = e.pageX/window.innerWidth * 100;
+			  yTooltipPosition = e.pageY/window.innerHeight * 100;
+		 })
+
+
 			// Load New York Times COVID-19 Data
 			var covid_counties;
 			var min_date;
@@ -301,7 +309,6 @@
 
 						  slider.call(brush.event);
 
-
 						  // Load in GeoJSON data
 						  d3.json("cb_2014_us_county_5m.json", function(json) {
 
@@ -315,11 +322,11 @@
 									  return getColor(d.properties.GEOID, current_date);
 								  })
 								  .on("mouseover", function(d){
-									  var xPosition = 25;
-									  var yPosition = 80;
 									  d3.select("#tooltip")
-										  .style("left", xPosition + "%")
-										  .style("top", yPosition + "%");
+										  .style("left", xTooltipPosition + "%")
+										  .style("top", yTooltipPosition + "%");
+									  d3.select("#date")
+									  	  .text(current_date.toDateString())
 									  d3.select("#county")
 										  .text(d.properties.NAME);
 									  d3.select("#geoid")
@@ -343,7 +350,6 @@
 			// Displays number of confirmed cases and deaths given geo id
 			function getCovidData(geoid, current_date)
 			{
-
 				  // filter so geoid matches
 				  var filtered = covid_counties.filter(function (i,n){
 					  return i.fips == geoid && new Date(i.date + " 00:00").getMonth() == current_date.getMonth() && new Date(i.date + " 00:00").getDate() == current_date.getDate();
@@ -352,9 +358,6 @@
 				 // check if in list
 				 if (filtered.length > 0)
 				 {
-					 const date = new Date(filtered[0].date);
-
-					 d3.select("#date").text(date.toDateString());
 					 d3.select("#confirmed").text(filtered[0].cases);
 					 d3.select('#deaths').text(filtered[0].deaths);
 
