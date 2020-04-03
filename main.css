@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #1F1F1F;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin: 16px 0 12px 0;
+}
+
+a {
+    color: #6e6d6d;
+    text-decoration: none;
+    transition: color .3s, background .3s, border .3s;
+}
+a:hover {
+    color: #4b4b48;
+    background: #e7e8e9;
+}
+
+svg {
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+}
+
+path {
+    fill: #03A678;
+    stroke: #FAFAFA;
+}
+
+path:hover {
+    fill:#2e456d;
+    cursor:pointer;
+}
+
+#tooltip {
+    width: 200px;
+    height: auto;
+    padding: 0.75em;
+    background-color: #FAFAFA;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+    -moz-box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+    box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+    pointer-events: none;
+    position: absolute;
+    }
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
