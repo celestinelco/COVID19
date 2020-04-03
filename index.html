@@ -233,9 +233,10 @@
 						color = d3.scale.linear().domain([minimum, pointTwo, pointThree, pointFour, max_confirmed]).range([minColor, colorTwo, colorThree, colorFour, maxColor]);
 
 						// get first and last date
-						max_date = new Date(covid_counties[0].date);
-						min_date = new Date(covid_counties[covid_counties.length-1].date);
-						start_date = new Date(covid_counties[0].date);
+						max_date = new Date(covid_counties[0].date + " 00:00");
+						min_date = new Date(covid_counties[covid_counties.length-1].date + " 00:00");
+						start_date = new Date(covid_counties[0].date + " 00:00");
+						current_date = start_date;
 
 						// time bounds
 						timeScale = d3.time.scale()
@@ -300,11 +301,9 @@
 
 						  slider.call(brush.event);
 
-						  current_date = start_date;
 
 						  // Load in GeoJSON data
 						  d3.json("cb_2014_us_county_5m.json", function(json) {
-							  // console.log(json);
 
 							  // Bind data and create one path per GeoJSON feature
 							  plot = svg.selectAll("path")
@@ -324,13 +323,11 @@
 									  d3.select("#county")
 										  .text(d.properties.NAME);
 									  d3.select("#geoid")
-										  .text(d.properties.GEOID); // this is the geoid!
+										  .text(d.properties.GEOID);
 									  d3.select("#population")
 									  	  .text(numberWithCommas(getPopulation(d.properties.NAME)))
 									  getCovidData(d.properties.GEOID, current_date);
 									  getNumberBeds(d.properties.NAME);
-									  // d3.select("#beds")
-										//   .text(getNumberBeds(d.properties.NAME));
 									  d3.select("#tooltip")
 										  .classed("hidden", false);
 								  })
@@ -346,6 +343,7 @@
 			// Displays number of confirmed cases and deaths given geo id
 			function getCovidData(geoid, current_date)
 			{
+
 				  // filter so geoid matches
 				  var filtered = covid_counties.filter(function (i,n){
 					  return i.fips == geoid && new Date(i.date).getMonth() == current_date.getMonth() && new Date(i.date).getDate() == current_date.getDate();
@@ -354,16 +352,12 @@
 				 // check if in list
 				 if (filtered.length > 0)
 				 {
-					 // TO-DO: If time slider is implemented, look up date
-					 // 			if not, return data from newest date
 					 const date = new Date(filtered[0].date);
 
 					 d3.select("#date").text(date.toDateString());
 					 d3.select("#confirmed").text(filtered[0].cases);
 					 d3.select('#deaths').text(filtered[0].deaths);
-					 // d3.select('#population').text(numberWithCommas(getPopulation(filtered[0].county)));
-					 // d3.select('#population').text(filtered[0].county);
-
+					 
 					 if (filtered.length > 1){
 						 d3.select("#delta_confirmed").text("(+" + (parseInt(filtered[0].cases)-parseInt(filtered[1].cases)) + ")");
 					 }
@@ -379,7 +373,7 @@
 			{
 				// filter so geoid matches
 				var filtered = covid_counties.filter(function (i,n){
-					return i.fips == geoid && new Date(i.date).getMonth() == current_date.getMonth() && new Date(i.date).getDate() == current_date.getDate();
+					return i.fips == geoid && new Date(i.date + " 00:00").getMonth() == current_date.getMonth() && new Date(i.date + " 00:00").getDate() == current_date.getDate();
 			  });
 
 			  // check if in list
@@ -394,7 +388,6 @@
 			// Returns number of staffed hospital beds given geo id
 			function getNumberBeds(county) {
 
-				console.log(hospital_json)
 				var result = hospital_json.filter(function (i, n) {
 					return i.CTYNAME === county;
 				});
@@ -435,7 +428,6 @@
 			  handle.select('text').text(formatDate(current_date));
 
 			  updateColors();
-
 			}
 
 			function updateColors()
