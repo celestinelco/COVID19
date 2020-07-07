@@ -140,7 +140,8 @@
 			var colorTwo = "#18dbab";
 			var colorThree = "#f4d889";
 			var colorFour = "#f7876b";
-			var maxColor = "#db1848";
+			var colorFive = "#db1848";
+			var maxColor = "#000000";
 			var grey = "#C9C9C9";
 			var color;
 
@@ -242,7 +243,7 @@
 						pointFour = 500;
 						pointFive = 1000;
 
-						color = d3.scale.linear().domain([minimum, pointTwo, pointThree, pointFour, max_confirmed]).range([minColor, colorTwo, colorThree, colorFour, maxColor]);
+						color = d3.scale.linear().domain([minimum, pointTwo, pointThree, pointFour, pointFive, max_confirmed]).range([minColor, colorTwo, colorThree, colorFour, colorFive, maxColor]);
 
 						// get first and last date
 						max_date = new Date(covid_counties[0].date + " 00:00");
